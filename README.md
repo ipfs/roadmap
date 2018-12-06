@@ -1,10 +1,32 @@
-## **IPFS Project Roadmap v0.4.0 **
+## IPFS Project Roadmap v0.4.0
 
 ## Table of Contents
 
+- [IPFS Mission Statement](#ipfs-mission-statement)
+- [2019 Priorities]()
+- [2019 Working Groups Roadmaps]()
+- [2019 IPLD & libp2p Roadmaps]()
+- [2019 Epics]()
+- [2019 Goals (expanded)]()
+  - [📦 Package Managers]()
+  - [🗂 Large Files]()
+  - [🔄 Decentralized Web]()
+- [2020+ Goals]()
+  - [♻️ Distributed Web]()
+  - [👩🏽‍💻 Personal Web]()
+  - [👟 Sneaker Web]()
+  - [🚀 Interplanetary Web - Mars 2024.]()
+  - [💾 Packet Switched Web]()
+  - [📑 Data Web]()
+  - [✉️ Package Switched Web]()
+  - [⛓ Self-Archiving Web]()  
+  - [🏷 Versioning Datasets]()
+  - [🗃 Interplanetary DevOp]()  
+  - [📖 The World's Knowledge becomes accessible through the DWeb]()
+  - [🌐 WebOS]()
+
 ## IPFS Mission Statement
 
-```
 In order to:
 - Ensure that all people have the ability to efficiently access and grow humanity's knowledge.
 - Mindfully develop new technologies that preserve and promote rights of individuals.
@@ -12,13 +34,11 @@ In order to:
 
 We believe that:
 
-All information on the internet should be uniquely and permanently content-addressed on a distributed peer-to-peer web.
-```
+**All information on the internet should be uniquely and permanently content-addressed on a distributed peer-to-peer web.**
 
 ## 2019 Priorities
 
 We will be focusing our efforts into **5** top-level priorities:
-
 
 - **📦 Supporting Package Managers**: Adding end-to-end support for package managers will provide a verifiable and co-hostable foundation for a vital use-case that we rely on. It will focus us on delivering performance and stability improvements while introducing IPFS to a huge community who have the skills to contribute back. See inbound interest [here](https://github.com/ipfs/notes/issues?q=is%3Aissue+is%3Aopen+label%3A%22package+managers%22).
   - _The most used code and binary Package Managers are powered by IPFS._
@@ -45,16 +65,16 @@ Each goal was given a score from 1 (low) - 5 (high) on each axis. We sorted firs
 
 ## 2019 Working Groups Roadmaps
 
-- [Project WG](<add here the name of the file>)
-- [JS Core](<add here the name of the file>)
-- [Go Core](<add here the name of the file>)
-- [GUI](<add here the name of the file>)
-- [Cluster](<add here the name of the file>)
-- [IPFS Infrastructure]()
-- [Community]()
-- [Integration in Web Browsers]()
-- [Dynamic Data & Capabilities]()
-- [Decentralized Data Stewardship]()
+- [Project WG](<link when the file is on gh>)
+- [JS Core](<link when the file is on gh>)
+- [Go Core](<link when the file is on gh>)
+- [GUI](<link when the file is on gh>)
+- [Cluster](<link when the file is on gh>)
+- [IPFS Infrastructure](<link when the file is on gh>)
+- [Community](<link when the file is on gh>)
+- [Integration in Web Browsers](<link when the file is on gh>)
+- [Dynamic Data & Capabilities](<link when the file is on gh>)
+- [Decentralized Data Stewardship](<link when the file is on gh>)
 
 ## 2019 IPLD & libp2p Roadmaps
 
@@ -85,7 +105,7 @@ Software Package Managers are one of the best systems to take advantage of Conte
 - Publish a report on the results from adding the NPM Registry to IPFS.
 - Meet the scalability and performance needs to serve the Package Managers users.
 
-We will booting the Package Managers Working Group soon, meanwhile, check out [NPM on IPFS ](https://github.com/ipfs-shipyard/npm-on-ipfs)& [GX](https://github.com/whyrusleeping/gx) to get a feel for what IPFS can contribute to Package Management.
+We will booting the Package Managers Working Group soon, meanwhile, check out [NPM on IPFS](https://github.com/ipfs-shipyard/npm-on-ipfs)& [GX](https://github.com/whyrusleeping/gx) to get a feel for what IPFS can contribute to Package Management.
 
 **3. Scale the IPFS Network**
 
@@ -115,7 +135,7 @@ More details will be public soon, meanwhile, make plans to visit Lisbon in June!
 
 **6. Everyone gets a simple way to add, share, retrieve and persist files on the IPFS Network, including Websites**
 
-<Description, TODO WRITE ME>
+The primitives and the network are here, now it is all about making it great to interact with the DWeb by integrating it with the tools and types of services we learned to use everyday.
 -  Website Hosting on IPFS becomes simple and easy with migration paths from common sources (e.g. migrate or mirror Github Pages to IPFS)
 -  The Migration to Base32 CIDs is completed across all projects and IPFS Gateway
 -  Cube, the DIY IPFS pinning service, is built and released
@@ -143,7 +163,7 @@ The IPFS Community is composed of many enthusiasts from the DWeb, P2P, Crypto, P
 
 ## 2019 Goals (expanded)
 
-### 📦 **Package Managers**  (D1 E5 I3)
+### 📦 Package Managers (D1 E5 I3)
 
 > The most used code and binary Package Managers are powered by IPFS.
 
@@ -151,13 +171,13 @@ Package Managers collect and curate sizable datasets. Top package managers distr
 
 Most package managers can benefit tremendously from the content-addressing, peer-to-peer, decentralized, and offline capabilities of IPFS. Existing Package Managers should switch over to using IPFS as a default, or at least an optional way of distributing their assets, and their own updates. New Package Managers should be built entirely on IPFS. --- Code libraries, programs, and datasets should become permanent, resilient, partition tolerant, and authenticated, and IPFS can get them there. Registries become curators and seeds, but do not have to bear the costs of the entire bandwidth. Registries could become properly decentralized. --- We have a number of challenges ahead to make this a reality, but we are already beyond half-way. We should be able to get top package managers to (a) use IPFS as an optional distribution mechanism, then (b) use that to test all kinds of edge cases in the wild and to drive performance improvements , then (c) get package managers to switch over the defaults.
 
-### 🗂 **Large Files** (D1 E4 I3)
+### 🗂 Large Files (D1 E4 I3)
 
 > By 2020, IPFS becomes the default way to distribute files or collections of files above 1GB
 
 HTTP is not good for distributing large files or large collections of small files. Anything above 1GB starts running into problems (resuming, duplication, centralized bandwidth limitations, etc). BitTorrent works well for single archives that won't change, or won't duplicate, but fails in a number of places. IPFS has solved most of the hard problems but hasn't yet made the experience so easy that people default to IPFS to distribute large files. IPFS should solve this problem so well, it should be so easy and delightful to use, and it should be so high performance that it becomes the default way to move anything above 1GB world-wide. This is a massive hole right now that IPFS is well-poised to fill -- we just need to solve some performance and usability problems.
 
-### 🔄 **Decentralized Web** (D2 E4 I3)
+### 🔄 Decentralized Web (D2 E4 I3)
 
 > IPFS supports decentralized web apps built on p2p connections with power and capabilities at the edges.
 
@@ -169,76 +189,78 @@ IPFS has solved most of the hard underlying design problems for decentralized we
 
 The following years' plan will be laid out during 2019. One of the goals for 2019 is to have a high-level 5 year (or decade) long view of the IPFS Project focus.
 
-### 🔒 **Encrypted Web **(D2 E3 I4)
+### 🔒 Encrypted Web (D2 E3 I4)
 
 > Apps and Data are fully end-to-end encrypted at rest. Users have reader, writer, and usage privacy.
 
 Apps and user data on IPFS are completely end-to-end encrypted, at rest, with only users having access. Users get reader and writer privacy by default. Any nodes providing services usually do so over encrypted data and never get access to the plain data. The apps themselves are distributed encrypted, decrypted and loaded in a safe sandbox in the users' control. Attackers (including ISPs) lose the ability to spy on users' data, and even which applications users are using. This works with all top use case apps -- email, chat, forums, collaboration tools, etc.
 
-### ♻️  Distributed Web (**D2 E2 I4**) **
+### ♻️ Distributed Web (D2 E2 I4)
 
 > Info and apps function equally well in local area networks and offline. The Web is a partitionable fabric, like the internet.
 
 The web and mobile -- the most important application platforms on the planet -- are capable of working entirely in sub-networks. The norm for networked apps is to use the available data and connections, to sync asynchronously, and to leverage local connectivity protocols. The main apps for every top use case work equally well in offline or local network settings. It means IPFS and apps on top work excellently on desktops, the browser, and mobile. Users can use webapps like email, chat, forums, social networks, collaboration tools, games, and so on without having to be connected to the global internet. Oh, and getting files from one computer to another right next to it finally becomes an easy thing to do (airdrop level of easy).
 
-### 👩🏽‍💻**Personal Web **(D3 E4 I2)
+### 👩🏽‍💻 Personal Web (D3 E4 I2)
 
 > Personal Data and programs are under user control.
 
 The memex becomes reality. The web becomes a drastically more personal thing. Users' data and exploration is under the users' control -- similar to how a "personal computer" is under the user's control, and "the cloud" is not. Users decide which apps and other people get access to their data. Explorations can be recorded for the user in memex fashion. The user gets to keep copies of all the data they have observed through the web. A self-archiving personal record forms, which the user can always go back to, explore, and use -- whether or not those applications are still in development by their authors.
 
-### 👟 **Sneaker Web** (D3 E2 I4)
+### 👟 Sneaker Web (D3 E2 I4)
 
 > The web functions over disconnected sneaker networks, spreading information, app data, apps, and more.
 
 The web is capable of working fully distributed, and can even hop across disconnected components of the internet. Apps and their data can flow across high latency, intermittent, asynchronous links across them. People in disconnected networks get the same applications, the same quality of experience, and the same ability to distribute their contributions as anybody in the strongest connected component ("the backbone of the internet"). The Web is totally resistant to large scale partitions. Information can flow so easily across disconnected components that there is no use in trying to block or control information at the borders.
 
-### 🚀 **Interplanetary Web** - **Mars 2024.** (D3 E3 I4)
+### 🚀 Interplanetary Web - Mars 2024. (D3 E3 I4)
 
-**Mars. **Let's live the interplanetary dream!** **SpaceX plans to land on mars in 2022, and send humans in 2024. By then, IPFS should be the <span style="text-decoration:underline;">default/best choice</span> for SpaceX networking. The first humans on mars should use IPFS to run the top 10 networked apps. That means truly excellent and well-known IPFS apps addressing the top 10 networked use cases must exist. For that to happen, the entire system needs to be rock solid, audited, performant, powerful, easy-to-use, well known, and so on. It means IPFS must work on a range of platforms (desktop, servers, web, mobile), and to work with both special purpose local area networks, and across interplanetary distances. If we achieve this, while solving for general use and general users (not specifically for the Mars use case, then IPFS will be in tremendous standing.
+> **Mars**. Let's live the interplanetary dream!** 
+
+SpaceX plans to land on mars in 2022, and send humans in 2024. By then, IPFS should be the default/best choice for SpaceX networking. The first humans on mars should use IPFS to run the top 10 networked apps. That means truly excellent and well-known IPFS apps addressing the top 10 networked use cases must exist. For that to happen, the entire system needs to be rock solid, audited, performant, powerful, easy-to-use, well known, and so on. It means IPFS must work on a range of platforms (desktop, servers, web, mobile), and to work with both special purpose local area networks, and across interplanetary distances. If we achieve this, while solving for general use and general users (not specifically for the Mars use case, then IPFS will be in tremendous standing.
 
 
-### **💾 Packet Switched Web **(D3 E2 I3)** **
+### 💾 Packet Switched Web (D3 E2 I3)
 
 > IPFS protocols use packet switching, and the network can relay all kinds of traffic easily, tolerating switch failures.
 
 The infrastructure protocols (libp2p, IPFS, etc.) and the end-user app protocols (the logic of the app) can work entirely over a packet switching layer. Protocols like BitSwap, DHT, PubSub become drastically higher performance, and unconstrained by packets sent before theirs. Web applications can form their own isolated virtual networks, allowing their users to distribute the packets. Users can form their own groups and their own virtual networks, allowing users to only operate in a subnet they trust, and ensure all of their traffic is moving between trusted switches. The big public network uses packet switching by default.
 
-### 📑 **Data Web** (D4 E3 I3)
+### 📑 Data Web (D4 E3 I3)
 
-**_Large Datasets are open, easy to access, easy to replicate, version controlled, secure, permanent._**
+> Large Datasets are open, easy to access, easy to replicate, version controlled, secure, permanent.
 
 `TODO: Write full description`
 
-### ✉️ **Package Switched Web** (D4 E2 I2)
+### ✉️ Package Switched Web (D4 E2 I2)
 
 > Data in the web can be moved around over a package switching network. Shipping TB or PB hard drives of data becomes normal.
 
 Beyond circuit switching and packet switching, the web works over package switching! It is possible to send apps, app assets, app user generated data, and so on through hard drives means. This means that the network stack and the IPLD graph sync layers are natively capable of using data in external, removable media. It is easy for a user Alice to save a lot of data to a removable drive, for Alice to mail the drive to another user Bob, and for Bob to plug in the drive to see his application finish loading what Alice wanted to show Bob. Instead of having to fumble with file exports, file systems, OS primitives, and worse -- IPFS, libp2p, and the apps just work -- there is a standard way to say "i want this data in this drive", and "i want to use the data from this drive". Once that happens, it can enable proper sneakernet web.
 
-### ⛓ **Self-Archiving Web** (D4 E4 I4)
+### ⛓ Self-Archiving Web (D4 E4 I4)
 
 > The Web becomes permanent, no more broken Links. Increase the lifespan of a Webpage from 6 months to ∞ (as good as a book).
 
 The Internet Archive(s, plural) Content Address their snapshots to maximize deduplications and hit factor. IPFS becomes the platform that enables the multiple Internet Archives to store, replicate and share responsibility over who possesses what. It becomes simple for any institution (from large organization to small local library) to become an Internet Archive node. Users can search through these Internet Archives nodes, fully compliant with data protection laws.
 
-### 🏷 **Versioning Datasets **(D4 E3 I3)
+### 🏷 Versioning Datasets (D4 E3 I3)
 
 > IPFS becomes the default way to version datasets, and unlocks a dataset distribution and utility explosion similar to what VCS did for code.
 
 IPFS emerged from dataset versioning, package management, and distribution concerns. There are huge gaping holes in this space because large datasets are very unwieldy and defy most systems that make small files easy to version, package, and distribute. IPFS was designed with this kind of problem in mind and has the primitives in place to solve many of these problems. There are many things missing: (a) most importantly, a toolchain for version history management that works with these large graphs (most of what git does). (b) Better deduplication and representation techniques. (c) Virtual filesystem support -- to plug under existing architectures. (d) Ways to easily wrap existing data layouts (filestore) -- to plug on top existing architectures. (e) An unrelenting focus on extremely high performance. (f) primitives to retrieve and query relevant pieces of versioned datasets (IPLD Selectors and Queries). --- But luckily, all of these things can be added incrementally to enhance the tooling and win over more user segments.
 
-### 🗃 **Interplanetary DevOps** (D4 E2 I2)
+### 🗃 Interplanetary DevOps (D4 E2 I2)
 
 > Versioning, packaging, distribution, and loading of Programs, Containers, OSes, VMs, defaults to IPFS.
 
 IPFS is great for versioning, deduping, packaging, distributing assets, through a variety of mediums. IPFS can revolutionize computing infrastructure systems. It has the potential to become the default way for datacenter and server infrastructure users to set up their infrastructure. This can happen at several different layers. (a) In the simplest sense, IPFS can help distribute programs to servers, by sitting within the OS, and plugging in as the downloading mechanism (replace wget, rsync, etc.).  (b) IPFS can also distribute containers -- it can sit alongside docker, kubernetes, and similar systems to help version, dedup, and distribute containerized services. (c) IPFS can also distribute OSes themselves, by plugging in at the OS package manager level, and by distributing OS installation media. (d) IPFS can also version, dedup, and distribute VMs, first by sitting alongside host OSes and hypervisors moving around VM snapshots, and then by modeling VMs themselves on top of IPFS/IPLD. --- To get there, we will need to solve many of the same problems as package managers, and more. We will need the IPLD importers to model and version the media super-effectively.
 
-### 📖 **The World's Knowledge becomes accessible through the DWeb **(D5 E2 I5)
+### 📖 The World's Knowledge becomes accessible through the DWeb (D5 E2 I5)
 
 Humanity deserves equal access to the Knowledge. Platforms such as Wikipedia, Coursera, Edx, Khan Academy and others need to be available independently of Location and Connectivity. The content of this services need to exist everywhere. These replicas should be part of the whole world's dataset and not disjoint dataset. Anyone should be able to access these through the protocol, without having to deploy new services per area.
 
-### 🌐 **WebOS **(D5 E2 I3)
+### 🌐 WebOS (D5 E2 I3)
 
 > The Web Platform and the OS'es merge.
 
