@@ -87,3 +87,7 @@ The major goals below and following milestones have been labeled with the emoji 
 - Q2
 - Q3
 - Q4
+
+## ⁉️ Want to get involved?
+- File an issue here with questions, or make a PR to suggest an alternate path
+- Want to help make this happen? [Open an issue on the Project Working Group repo!](https://github.com/ipfs/project/issues)
