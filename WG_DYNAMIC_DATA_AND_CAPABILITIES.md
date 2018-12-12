@@ -21,7 +21,7 @@ All these milestones are related to the “Decentralised Web” Top Level Priori
 
 ### 1. DX
 
-#### 1.1. (DX) Peer-star interfaces and types are well defined, documented, tested and implemented (P0):
+#### 1.1. (DX) Peer-base interfaces and types are well defined, documented, tested and implemented (P0):
 
 *   **Membership**: for a given collaboration, replicate member peers (their addresses, identities and more) to other members
 *   **Gossip**: allow peers in an application or collaboration to share a secure channel for sharing data about each other
@@ -34,7 +34,7 @@ All these milestones are related to the “Decentralised Web” Top Level Priori
         *   Pinning service (allow data to be persisted remotely through a specific service)
 *   **Access Control**: based on identity, and for a given collaboration, allow peers to define which sets of operations they're going to accept
 *   **Remote Presence**: allow collaborating peers to be informed about each others' presence and actions
-*   **Authentication: **allow a peer to authenticate a given piece of data
+*   **Authentication**: allow a peer to authenticate a given piece of data
 *   **Identity-based P2P secret sharing**: allow a peer to share a secret that will be authenticated and secret
 *   **Personal** **feeds**: allow any peer to expose a set of activity feeds to any permissioned peer
 *   **Causal broadcast channel**: create a group messaging channel that respects causality
@@ -42,13 +42,13 @@ All these milestones are related to the “Decentralised Web” Top Level Priori
     *   Op-based CRDTs (Conflict-free replicated data types that are based on a growing set of operations)
     *   Delta state-based CRDTs Conflict-free replicated data types that are based on transmitting deltas or entire states)
 
-#### 1.2. (DX) Peer-star release management is well defined and optimal (P0)
+#### 1.2. (DX) Peer-base release management is well defined and optimal (P0)
 
 *   Change logs
 *   Support migrations for breaking changes
-*   Long-lived schema management 
+*   Long-lived schema management
 
-#### 1.3. (DX) A methodology for supporting peer-star libraries is defined and implemented (P0)
+#### 1.3. (DX) A methodology for supporting peer-base libraries is defined and implemented (P0)
 
 (look at other OSS projects like IPFS, Node.js)
 
@@ -86,15 +86,12 @@ Notes:
 *   Idea: piggyback on IPFS desktop?
 *   Idea: support infrastructure donation?
 
-#### 1.7. (DX) peer-star-app v1 has been released (P3)
+#### 1.7. (DX) peer-base v1 has been released (P3)
 
 Depends on M1.1.
 Signifies stability to developers.
 
 What does it contain, look like?
-
-Notes:
-*   **Rename** peer-star-app to X?
 
 #### 1.8. (DX) Online Materials (text mainly, perhaps video) exist and are supported (P3)
 
@@ -107,12 +104,12 @@ Notes:
 
 #### 1.9. (DX) The working group has partnered with a third party on development of a production-quality collaborative application (P4)
 
-#### 1.10. (DX) peer-star interfaces and types are formally defined (language agnostic) (P4)
+#### 1.10. (DX) peer-base interfaces and types are formally defined (language agnostic) (P4)
 
 Notes:
 *   Discuss this with libp2p and IPFS teams.
 *   Check out WebIDL.
-*   Try to make this more iterative (not waterfall) as peer-star-app stabilizes so that we can start implementing some of these components in other languages / platforms.
+*   Try to make this more iterative (not waterfall) as peer-base stabilizes so that we can start implementing some of these components in other languages / platforms.
 
 #### 1.11. (DX) Identity Manager PoC v0.1 is released and is easy to integrate into an existing web DApp (well tested and documented) (P4)
 
@@ -135,14 +132,14 @@ IDM = Identity Manager
 
 Note: (Consider also having a milestone for releasing an IDM MVP).
 
-#### 2.3. (UX) Can replicate app/domain storage using Identity 
+#### 2.3. (UX) Can replicate app/domain storage using Identity
 
 (Depends on M2.1)
 
 *   It's expected that the same user uses the same DApps on different devices. Research and implement a way for application data produced by the same identity (user) to be synced among devices.
 *   It should support multi-writer scenarios
 
-#### 2.4. (UX) It is possible to build web DApps based on peer-star-app with good performance attributes (P0)
+#### 2.4. (UX) It is possible to build web DApps based on peer-base with good performance attributes (P0)
 
 #### Performance
 
@@ -202,7 +199,7 @@ Note: (Consider also having a milestone for releasing an IDM MVP).
 *   feel good about posting to Product Hunt
 *   known performance and system reqs
 
-#### 3.1.8 (DApps) - Full time PM for Peer-Star-App ecosystem (P1)
+#### 3.1.8 (DApps) - Full time PM for Peer-base ecosystem (P1)
 
 #### 3.2. (DApps) Launch Discussify v1.0 (P1)
 
