@@ -102,7 +102,7 @@ What does it contain, look like?
     *   Advanced
 *   Video perhaps, but only for events
 
-#### 1.9. (DX) The working group has partnered with a third party on development of a production-quality collaborative application (P4)
+#### 1.9. (DX) The working group has partnered with a third party on development of a production-quality collaborative application (P1)
 
 #### 1.10. (DX) peer-base interfaces and types are formally defined (language agnostic) (P4)
 
