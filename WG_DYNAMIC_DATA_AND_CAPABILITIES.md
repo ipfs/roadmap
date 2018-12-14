@@ -164,29 +164,28 @@ Note: (Consider also having a milestone for releasing an IDM MVP).
 
 #### 3.1.1 (DApps) - PeerPad used as the primary note taking tool inside PL (not be at feature parity with Cryptpad but "good enough", internal users do not rebel) (P1)
 
-#### 3.1.2 (DApps) - PeerPad has comprehensive E2E/load tests (P1)
+#### 3.1.2 (DApps) - PeerPad has comprehensive E2E/load tests (P2)
 
 *   PP tests use common PL testbed (being developed currently by libp2p team) // _cross-team dependency_
 *   range of scenarios tested  (single player, normal WG scale, single bad actor, overwhelming load that shows degenerate behavior, etc)
 
-#### 3.1.3 (DApps/UX) - Comprehensive competitive \*-Pad field study completed  (P2)
+#### 3.1.3 (DApps/UX) - PeerPad feature requirements established based on best industry examples  (P2)
 
-*   \*-pad family: etherpad, cryptpad, dillinger
-*   richer editors: dbx paper
+*   cryptpad
+*   other \*-pad products: hackmd, dillinger, etherpad, etc
 *   single player: gist
+*   (bonus) richer editors: dbx paper
 
-#### 3.1.4 (DApps/UX) - Some PeerPad user testing completed  (P2)
+#### 3.1.4 (DApps/UX) - Some PeerPad user testing completed  (P3)
 
-*   ongoing feedback from internal users
-*   user studies (normal use, "make them break it")
+*   dogfooding
 
 #### 3.1.5 (DApps/DX) - PeerPad useful as teaching tool  (P2)
 
-*   "Make your own PeerPad [Nano]" tutorial, text (quarterly updates) + video at 1.0
+*   "Make your own PeerPad (Nano)" tutorial, text + video at 1.0
 *   event workshop
-*   whitelabaled PeerPad deployable
 
-#### 3.1.6 (DApps/UX) - UX improved  (P2)
+#### 3.1.6 (DApps/UX) - UX improved  (P3)
 
 *   dead feature cleanup
 *   polished desktop experience
@@ -194,12 +193,11 @@ Note: (Consider also having a milestone for releasing an IDM MVP).
 
 #### 3.1.7 (DApps/UX) - True PeerPad 1.0 release (P1) _// depends on 3.1.4, 3.1.5, 3.1.6_
 
-*   MVP feature-complete
-*   looks good
-*   feel good about posting to Product Hunt
-*   known performance and system reqs
+*   matches requirements gathered in 3.1.3
 
-#### 3.1.8 (DApps) - Full time PM for Peer-base ecosystem (P1)
+#### 3.1.8 PeerPad Core usable as whitelabeled editor backend (P1)
+
+*   can build CryptPad, HackMD, etc on top of peerpad core
 
 #### 3.2. (DApps) Launch Discussify v1.0 (P1)
 
@@ -222,3 +220,10 @@ Note: (Consider also having a milestone for releasing an IDM MVP).
 *   Ability to have private discussions with other users through invitation
 *   Ensure that it's performant, stable and not resource hungry
 *   Define (and execute) a plan for the launch of Discussify as a decentralized product
+
+### 4. Staffing
+
+#### 4.1 (Staffing) - Full time PM for Peer-base ecosystem (P1)
+
+
+
