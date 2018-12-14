@@ -13,7 +13,7 @@
 
 - Improve DX: Create the DApp Toolkit that will allow developers to easily create web DApps that have the capabilities usually provided by generic Web 2.0 dev toolkits.
 - Improve UX: Improve User Experience for DApps built on top of IPFS / libp2p.
-- End-goal: Increase user adoption: enable the top 3 Productivity Apps to exist and be used on the DWeb.
+- End-goal: Increase developer adoption: enable the top 3 Productivity Apps to exist and be used on the DWeb.
 
 ## 💎 Milestones
 
@@ -169,9 +169,9 @@ Note: (Consider also having a milestone for releasing an IDM MVP).
 *   PP tests use common PL testbed (being developed currently by libp2p team) // _cross-team dependency_
 *   range of scenarios tested  (single player, normal WG scale, single bad actor, overwhelming load that shows degenerate behavior, etc)
 
-#### 3.1.3 (DApps/UX) - Comprehensive competitive *-Pad field study completed  (P2)
+#### 3.1.3 (DApps/UX) - Comprehensive competitive \*-Pad field study completed  (P2)
 
-*   *-pad family: etherpad, cryptpad, dillinger
+*   \*-pad family: etherpad, cryptpad, dillinger
 *   richer editors: dbx paper
 *   single player: gist
 
