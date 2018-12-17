@@ -45,7 +45,7 @@ We will be focusing our efforts into **5** top-level priorities:
   - _The most used code and binary Package Managers are powered by IPFS._
 - **🗂 Transferring Large Files/Datasets**: Being the go-to solution for transferring large datasets is something IPFS is well poised to meet, but is currently blocked on performance, usability and pain-points that are also needed for future goals. Meeting this goal has the opportunity to embed IPFS in many tools with powerful ecosystems, or alternatively create improved versions that can attract new low-level developers to our community and create better solutions for end users.
   - _IPFS becomes the default way to distribute files / collections of files above 1GB._
-- **🔄 Building the Decentralized Web**: The decentralized web (DWeb) communities are already huge proponents and users of IPFS, however they need additional tooling and capabilities to spark rapid growth of DWeb Applications. Augmenting the power and number of DWeb Applications created will increase the size and impact of our existing community, and test IPFS in ways only our users can imagine.
+- **🔄 Building the Decentralized Web**: IPFS wants to decentralize the web. The communities building the DWeb are already huge proponents of IPFS. By providing additional tools and capabilities we can support and amplify the movement. Augmenting the power and number of DWeb Applications created will increase the size and impact of our existing community, and test IPFS in ways only our users can imagine.
   - _IPFS supports decentralized web apps built on p2p connections with power and capabilities at the edges._
 - **🤝 Supporting community growth**: We will ensure that we are setting up our community for success by addressing key needs to unlock their growth in 2019. Making our users successful and delivering on their top needs to ensure they have a smooth and productive experience with IPFS helps us retain and gain adoption, grow our community, increase our impact, and demonstrate our maturity as a project.
   - _IPFS users are set up with the tools and capabilities they need to grow & flourish._
@@ -56,7 +56,7 @@ We will be focusing our efforts into **5** top-level priorities:
 
 The 2019 priorities are all geared to grow our maturity as a project, increase our adoption and community, and set ourselves up for the future. To be successful, we need to level-up our ability to land complete, polished, and accessible improvements that meet our user's needs for stability, scalability, privacy, and security. We need to keep growing intelligently, both by the types of communities that can help us accelerate growth and by the number of users they can help us reach. And we need to set ourselves up with the understanding and capabilities to reach our future goals for the project and scale our impact.
 
-We designed a sorting function to help us identify which goals 1) we could focus on landing end-to-end in 2019, 2) that would bring valuable new partners and users into our community, and 3) that would set us up for future goals while delivering near-term value.
+We designed a sorting function to help us identify goals that 1) we can land end-to-end in 2019, 2) will bring new partners and users into the community, and 3) will set us up for future goals while delivering near-term value.
 
 **Sorting Function Explanation**
 
@@ -65,6 +65,8 @@ We designed a sorting function to help us identify which goals 1) we could focus
 Each goal was given a score from 1 (low) - 5 (high) on each axis. We sorted first in terms of low difficulty or "delta" (i.e.  minimal additional requirements and fewer dependencies from the capabilities IPFS has now), then high ecosystem growth (growing our community and resources to help us gravity assist and accelerate our progress), and finally high importance (we want IPFS to have a strong, positive impact on the world). See the [2019 Goals (expanded)](#2019-goals-expanded) and [2020+ Goals](#2020-goals) sections for sorted priorities.
 
 ## 2019 Working Groups Roadmaps
+
+The IPFS project is the collective work of serveral focused teams, called Working Groups. Each group defines its own roadmap with tasks and priorities derived from the 5 top-level priortites described above. You can drill-down into each roadmap to get the full picture, or jump to the [2019 epics](#2019-epics) section below for the highlights.
 
 - [Project WG](WG_PROJECT.md)
 - [JS Core](WG_JS_CORE.md)
@@ -84,33 +86,31 @@ Each goal was given a score from 1 (low) - 5 (high) on each axis. We sorted firs
 
 ## 2019 Epics
 
-We've distilled the Working Group Milestones into 2019 IPFS Epics in order to create a overview of the primary targets the IPFS Project is setting for 2019. The information about Timeline, Sequencing and Priority still resides within each Working Group Roadmap.
-
-If you are pumped about these Epics and want to help, you can also get involved! See the call to action (CTA) for each section below.
+We've distilled the key themes from the Working Group Roadmaps into a list Epic Endevours that give an overview of the primary targets IPFS has for 2019. If you are pumped about these Epics and want to help, you can get involved! See the call to action (CTA) for each section below.
 
 ### 1. The reference implementations of the IPFS Protocol (Go & JS) becomes Production Ready
 
-We've been working hard on improving and iterating the IPFS Protocol to make sure it serves its users needs and achieves the goal of giving the Web a new super power, Content Addressing. In 2019, we are setting ourselves to solidify the core components and ensure IPFS is ready for Production Systems. Some of these goals include:
+We've been working hard on improving and iterating on the IPFS Protocol to make sure it serves its users needs and achieves the goal of giving the Web a new super power: Content Addressing. In 2019 we will solidify the core components and ensure IPFS is ready for production systems. Our goals include:
 - IPFS core solidified and APIs revamped/crystalized to be future-proof
 - Complete Specification of the Protocol
 - Security Audits and Security Program
-- Go and JS IPFS enable modern IPFS data formats (UnixFSv2, CIDv1, raw blocks) by default
+- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default
 - Bring js-ipfs and go-ipfs to v1.0.0
 
-You can contribute to these Epic by testing, debugging or even coding to either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
+You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
 
 ### 2. Support Software Package Managers into entering the Distributed Web
 
-Software Package Managers are one of the best systems to take advantage of Content Addressing. Developers and Deployment systems hit Package Managers Registries everyday to download the same bits of code, creating a huge overhead in terms of bandwidth. In addition today, it is incredibly important that we ensure that the code that we run is the code that the author's intended and Content Addressing can help with this goal by adding a Integrity verification step.
+Software Package Managers are an ideal use-case for Content Addressing. Develeopers could fetch packages team mates on their local network instead of asking a centralized Package Registries and our tools could verify that the code we run is exactly the code that the authors intended.
 - Kick-off a Package Managers Working Group to work closely with different Package Managers and understand each one challenges and needs.
 - Publish a report on the results from adding the NPM Registry to IPFS.
-- Meet the scalability and performance needs to serve the Package Managers users.
+- Meet the scalability and performance needs to serve the Package Management user-case.
 
 We will be booting the Package Managers Working Group in early 2019, meanwhile, check out [NPM on IPFS](https://github.com/ipfs-shipyard/npm-on-ipfs) & [GX](https://github.com/whyrusleeping/gx) to get a feel for what IPFS can contribute to Package Management.
 
 ### 3. Scale the IPFS Network
 
-To support the continued growth of the IPFS Network, we plan to optimize our scalability and testing.
+To support the continued growth of the IPFS Network, we will be testing, benchmarking the protocol at scale.
 - Deploy a P2P testbed for Distributed Protocols that enables us to spin up hundreds of thousands of nodes on demand and run tests on them.
 - IPFS has an opt-in Telemetry system so that tests can collect key data to understand the experiments.
 
@@ -118,30 +118,30 @@ Our friends from libp2p will be playing the larger role into achieving this goal
 
 ### 4. Create a platform that untangles the mysteries of developing a DApp
 
-Support the explosion of the DApp ecosystem with underlying tooling, best practices, and community support.
+Support the growth of the DApp ecosystem with tooling, best practices, and community support.
 - Fully launch Peer Base toolkit to support building DApps that can run Online, Offline, and in Disjoint Networks.
-- Translate the Identity Manager RFC into code, a sandboxed way for Users to manage their DWeb Identity.
+- Translate the Identity Manager RFC into code, providing a sandboxed way for Users to manage their DWeb Identity.
 - Support DApp security needs (API security, multi-tenancy, and secure broadcast updates).
-- Create a guidebook/spec to popularize best practices to deal with unique UX challenges of the DWeb.
+- Create a guidebook to popularize best practices to deal with unique UX challenges of the DWeb.
 - Continue to contribute to the adoption of the DWeb in the Web Platform (Brave, libdweb, IPFS companion), making it more accessible to users and Web Developers.
 
 The Dynamic Data & Capabilities WG is working full speed towards this. If you are passionate about building DApps and/or have field experience you would like to share, please come and participate in the [DDC Bi-weekly Sync](https://github.com/ipfs/dynamic-data-and-capabilities#bi-weekly-sync).
 
-### 5. The IPFS Community gets together for the 1st [IPFSConf](https://github.com/ipfs/conf)
+### 5. The IPFS Community gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
 
-Yes, you read the title right. The IPFS Community is going to have "IPFSConf" for the 1st time in the beautiful city of Lisbon. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
+Yes, you read the title right. The IPFS Community is going to organise the first "IPFS Conf" in the beautiful city of Lisbon. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
 - Host the 1st Conference for the IPFS Community.
 
 More details will be public soon, meanwhile, make plans to visit Lisbon in June! Subscribe for updates [here](https://github.com/ipfs/conf#ipfsconf-lisbon-2019).
 
-### 6. Everyone gets a simple way to add, share, retrieve and persist files on the IPFS Network, including Websites
+### 6. Everyone gets a simple way to add, share, retrieve and persist files and websites on the IPFS Network
 
-The primitives and the network are here, now it is all about making it great to interact with the DWeb by integrating it with the tools and types of services we learned to use everyday.
+The primitives and the network are here. Now we need to create a great user experience for the DWeb by integrating it with the tools and types of services we use everyday.
 - Website Hosting on IPFS becomes simple and easy with migration paths from common sources (e.g. migrate or mirror Github Pages to IPFS).
-- The Migration to Base32 CIDs is completed across all projects and IPFS Gateway.
-- Cube, the DIY IPFS pinning service, is built and released.
-- WebUI shows information about file transfer progress, files being stored on our node (independently of that list size) and enables users to share files with friends and/or local peers.
-- Managed and federated clusters become easy to boot and administer.
+- The migration to Base32 CIDs is completed across all projects and IPFS Gateway.
+- A DIY IPFS pinning service, is built and released.
+- Web UI shows information about file transfer progress, files being stored on our node (independently of that list size) and enables users to share files with friends and local peers.
+- Managed and federated clusters become easy to create and administer.
 - Support self-hosted topic networks with tooling for collaborative/reciprocal pinsets.
 - Create a UI for LAN/WAN Sharing on IPFS Companion and IPFS Desktop.
 
