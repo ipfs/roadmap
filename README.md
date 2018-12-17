@@ -1,4 +1,4 @@
-## IPFS Project Roadmap v0.4.0
+# IPFS Project Roadmap v0.4.0
 
 ## Table of Contents
 
@@ -20,9 +20,9 @@
   - [💾 Packet Switched Web](#-packet-switched-web-d3-e2-i3)
   - [📑 Data Web](#-data-web-d4-e3-i3)
   - [✉️ Package Switched Web](#%EF%B8%8F-package-switched-web-d4-e2-i2)
-  - [⛓ Self-Archiving Web](#-self-archiving-web-d4-e4-i4)  
+  - [⛓ Self-Archiving Web](#-self-archiving-web-d4-e4-i4)
   - [🏷 Versioning Datasets](#-versioning-datasets-d4-e3-i3)
-  - [🗃 Interplanetary DevOp](#-interplanetary-devops-d4-e2-i2)  
+  - [🗃 Interplanetary DevOp](#-interplanetary-devops-d4-e2-i2)
   - [📖 The World's Knowledge becomes accessible through the DWeb](#-the-worlds-knowledge-becomes-accessible-through-the-dweb-d5-e2-i5)
   - [🌐 WebOS](#-webos-d5-e2-i3)
 
@@ -108,7 +108,7 @@ Software Package Managers are one of the best systems to take advantage of Conte
 
 We will be booting the Package Managers Working Group in early 2019, meanwhile, check out [NPM on IPFS](https://github.com/ipfs-shipyard/npm-on-ipfs) & [GX](https://github.com/whyrusleeping/gx) to get a feel for what IPFS can contribute to Package Management.
 
-### 3. Scale the IPFS Network 
+### 3. Scale the IPFS Network
 
 To support the continued growth of the IPFS Network, we plan to optimize our scalability and testing.
 - Deploy a P2P testbed for Distributed Protocols that enables us to spin up hundreds of thousands of nodes on demand and run tests on them.
@@ -216,7 +216,7 @@ The web is capable of working fully distributed, and can even hop across disconn
 
 ### 🚀 Interplanetary Web - Mars 2024. (D3 E3 I4)
 
-> **Mars**. Let's live the interplanetary dream!** 
+> **Mars**. Let's live the interplanetary dream!**
 
 SpaceX plans to land on mars in 2022, and send humans in 2024. By then, IPFS should be the default/best choice for SpaceX networking. The first humans on mars should use IPFS to run the top 10 networked apps. That means truly excellent and well-known IPFS apps addressing the top 10 networked use cases must exist. For that to happen, the entire system needs to be rock solid, audited, performant, powerful, easy-to-use, well known, and so on. It means IPFS must work on a range of platforms (desktop, servers, web, mobile), and to work with both special purpose local area networks, and across interplanetary distances. If we achieve this, while solving for general use and general users (not specifically for the Mars use case, then IPFS will be in tremendous standing.
 
