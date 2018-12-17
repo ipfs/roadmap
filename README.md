@@ -66,21 +66,21 @@ Each goal was given a score from 1 (low) - 5 (high) on each axis. We sorted firs
 
 ## 2019 Working Groups Roadmaps
 
-- [Project WG](<link when the file is on gh>)
-- [JS Core](<link when the file is on gh>)
-- [Go Core](<link when the file is on gh>)
-- [GUI](<link when the file is on gh>)
-- [Cluster](<link when the file is on gh>)
-- [IPFS Infrastructure](<link when the file is on gh>)
-- [Community](<link when the file is on gh>)
-- [Integration in Web Browsers](<link when the file is on gh>)
-- [Dynamic Data & Capabilities](<link when the file is on gh>)
-- [Decentralized Data Stewardship](<link when the file is on gh>)
+- [Project WG](WG_PROJECT.md)
+- [JS Core](WG_JS_CORE.md)
+- [Go Core](WG_GO_CORE.md)
+- [GUI](WG_GUI.md)
+- [Cluster](WG_CLUSTER.md)
+- [IPFS Infrastructure](WG_INFRASTRUCTURE.md)
+- [Community](WG_COMMUNITY.md)
+- [Integration in Web Browsers](WG_INTEGRATION_IN_WEB_BROWSERS.md)
+- [Dynamic Data & Capabilities](WG_DYNAMIC_DATA_AND_CAPABILITIES.md)
+- [Decentralized Data Stewardship](WG_DECENTRALIZED_DATA_STEWARDSHIP.md)
 
 ## 2019 IPLD & libp2p Roadmaps
 
 - [libp2p](https://docs.google.com/document/d/1Rd4yNw1TNQBvfRrKeEMSTseb6fvPzS-C--obOn0nul8/edit)
-- [IPLD](https://github.com/ipld/roadmap/pull/1)
+- [IPLD](https://github.com/ipld/roadmap)
 
 ## 2019 Epics
 
