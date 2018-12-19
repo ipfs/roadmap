@@ -7,7 +7,6 @@ The DDS WG is proposing to own the discovery, design, and development of Cube, a
 - 🗂 🔄 Product: Cube. Create a product that makes it easy for people to run their own pinning service and manage it. We will do this by creating agile teams around one or several products that iteratively solve complete, basic service journeys for managing large volumes of data on the distributed web. Collaborate closely with IPFS Cluster and Filecoin teams (see also IPFS Cluster and IPFS GUI). Relevant to the Large files and Decentralized Web 2019 IPFS Priorities.
 - 🔄 Events: Preserving the Public Record. launch a series of grassroots events around the world focused on addressing questions of what it means to create and preserve a public record. Relevant to the Decentralized Web 2019 IPFS Priority.
 - 🤝 Partnerships: Data Together. Build on existing work and open new collaborations to broaden the coalition of institutions, companies, and people who are using DDS tools to solve real problems in the world. We intend to especially focus on GLAM institutions and global-scope organizations with social benefit missions. Relevant to the Partner Use Cases 2019 IPFS Priority.
-- 🧠 Get Smart About Design. Contribute to bootstrapping an IPFS Design team that leads the way on human-centered design for cryptography and decentralized apps. (An IPFS Design Team doesn’t exist yet, so this goal is declared here. See also IPFS GUI.) Relevant to the Strategic Projects 2019 IPFS Priority.
  
 ## 💎 Milestones
 
