@@ -28,6 +28,7 @@
 
 -   `M(P0)` Base32 CIDv1 is the default and can be used as authority in URLs
 -   `M(P0)` Drop-in API Provider library is the default way of integrating IPFS with web apps and browser extensions
+-   `M(P0)` HTTP/WS /api/v1/ with proper access controls exists
 -   `M(P1)` Docs or guidebook of developer best practices for writing decentralised web apps exists.
 -   `M(PX)` It is possible to verify integrity of HTTP Gateway Responses
 -   `M(PX)` URIs are officially registered (IANA etc)
