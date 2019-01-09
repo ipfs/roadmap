@@ -84,9 +84,37 @@ The major goals below and following milestones have been labeled with the emoji 
 ## ⏳ Timeline
 
 - Q1
+  - `M (P0)`: Bootstrap a Package Managers Working group 📦 🧠 (Part 1: Roadmap, Onboard Owners for npm on IPFS, GX and partner relationships)
+  - `M (P1)`: IPFS gets a Public and Structured Dev Grant Program 🧠 📦 🗂 🔄 (Part 1: Launch program)
+  - `M (P1)`: The community receives Quarterly IPFS Project Reports (similar to the Filecoin updates) 🤝 (Part 1: Q1 Report)
+  - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 1: Q1 Report)
+  - `M (P0)`: IPFS Events are open and planned proactively 🧠
+  - `M (P0)`: IPFS Documentation & Specifications are organized, updated, and have 4+ active maintainers 🧠
+  - `M (P2)`: The IPFS org makes decisions based on user research 🤝 🧠 (Part 1: onboard some UXR support)
 - Q2
+  - `M (P0)`: Grow the Project WG with folks at full time capacity 🧠
+  - `M (P0)`: Bootstrap a Package Managers Working group 📦 🧠 (Part 2: Understand Package Manager Ecosystem Needs. Ensure that those are covered by the Core Impl work.)
+  - `M (P1)`: The community receives Quarterly IPFS Project Reports (similar to the Filecoin updates) 🤝 (Part 2: Q2 Report)
+  - `M (P1)`: The InterPlanetary Community Handbook is Published 🧠 (Part 1: Drafted)
+  - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 2: Q2 Report)
+  - `M (P0)`: IPFS gets a solid Security Program 📦 🤝 🧠 (Depends on LabOS figuring out the Security Team for PL)
+  - `M (P2)`: The IPFS org makes decisions based on user research 🤝 🧠 (Part 2: integrate into decision making)
+  - `M (P1)`: Create Large Research Contests for IPFS internals, driving adoption through enthusiasm and practice 🧠 📦 🗂 🔄  Ppart 0: preliminary planning)
 - Q3
+  - `M (P0)`: Bootstrap a Package Managers Working group 📦 🧠 (Part 3: The world (the Package Managers we work with first) starts defaulting to IPFS as a transport.)
+  - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 3: Q3 Report)
+  - `M (P1)`: The community receives Quarterly IPFS Project Reports (similar to the Filecoin updates) 🤝 (Part 3: Q3 Report)
+  - `M (P1)`: Create Large Research Contests for IPFS internals, driving adoption through enthusiasm and practice 🧠 📦 🗂 🔄  (part 1: Block Exchange grant)
+  - `M (P1)`: The InterPlanetary Community Handbook is Published 🧠 (Part 2: LAUNCH - ?@ipfs conf?)
+  - `M (P1)`: IPFS gets a Public and Structured Dev Grant Program 🧠 📦 🗂 🔄 (Part 2: target number of grants issued)
+  - `M (P2)`: Bootstrap Offline/Mobile working groups to prepare for 2020 work towards distributed web vision 🧠
+  - `M (P3)`: Evaluate the current set of tools/services we use to run our org and compare it with potential alternatives 🧠
 - Q4
+  - `M (P1)`: Create Large Research Contests for IPFS internals, driving adoption through enthusiasm and practice 🧠 📦 🗂 🔄  (Part 2: Graph Exchange grant)
+  - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 4: Q4 Report)
+  - `M (P1)`: The community receives Quarterly IPFS Project Reports (similar to the Filecoin updates) 🤝 (Part 4: Q4 Report)
+  - `M (P2)`: Roadmap is updated and published with 2020+ plans 🧠
+  - `M (P3)`: IPFS collaborates with PL Research and creates a Public Research Grant Program dedicated to IPFS Open Problems
 
 ## ⁉️ Want to get involved?
 - File an issue here with questions, or make a PR to suggest an alternate path
