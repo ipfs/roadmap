@@ -99,7 +99,7 @@ The major goals below and following milestones have been labeled with the emoji 
   - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 2: Q2 Report)
   - `M (P0)`: IPFS gets a solid Security Program 📦 🤝 🧠 (Depends on LabOS figuring out the Security Team for PL)
   - `M (P2)`: The IPFS org makes decisions based on user research 🤝 🧠 (Part 2: integrate into decision making)
-  - `M (P1)`: Create Large Research Contests for IPFS internals, driving adoption through enthusiasm and practice 🧠 📦 🗂 🔄  Ppart 0: preliminary planning)
+  - `M (P1)`: Create Large Research Contests for IPFS internals, driving adoption through enthusiasm and practice 🧠 📦 🗂 🔄  Part 0: preliminary planning)
 - Q3
   - `M (P0)`: Bootstrap a Package Managers Working group 📦 🧠 (Part 3: The world (the Package Managers we work with first) starts defaulting to IPFS as a transport.)
   - `M (P1)`: Quarterly IPFS User Reports from our direct partners/collaborators and broad Users, exist and are useful to the Working Groups 🤝 (Part 3: Q3 Report)
