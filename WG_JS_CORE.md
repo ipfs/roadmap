@@ -94,7 +94,7 @@ One of the big features that IPFS lacks right now is content discoverability. A 
   - Return values are documented, including object properties and types
   - Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
 
-### `M (P0)`: Revamped APIs 🔄 🤝 🧠 (P0)
+### `M (P0)`: Revamped APIs 🔄 🤝 🧠
 
 Revamping the APIs will make them easier to use and simpler to understand. Using modern syntax will make JS IPFS appealing to a wider segment of the JS community, aiding adoption and contributions. It also gives us scope to make performance optimisations and stability/debuggability improvements.
 
@@ -108,7 +108,7 @@ Revamping the APIs will make them easier to use and simpler to understand. Using
 - Old APIs are deprecated and removed (e.g. object, block)
 - At least one alternative API exists for JS IPFS (e.g. Graphql)
 
-### `M P(3)`: Support for specific use cases 🔄 🤝 🧠 (P3)
+### `M (P3)`: Support for specific use cases 🔄 🤝 🧠
 
 This milestone focuses in on how JS IPFS can refine and augment it’s existing tech stack to better serve specific use cases.
 
