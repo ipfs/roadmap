@@ -102,9 +102,9 @@ Revamping the APIs will make them easier to use and simpler to understand. Using
 - Support ArrayBuffer as an alternative to Buffer input argument
 - Streaming APIs switch to using async iterators/iterables
 - The files API is revamped:
-- Files functions moved to the root namespace
-- Non-MFS and MFS functions are merged
-- A revamped RESTful HTTP API exists
+    - Files functions moved to the root namespace
+    - Non-MFS and MFS functions are merged
+    - A revamped RESTful HTTP API exists
 - Old APIs are deprecated and removed (e.g. object, block)
 - At least one alternative API exists for JS IPFS (e.g. Graphql)
 
