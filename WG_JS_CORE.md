@@ -85,14 +85,17 @@ One of the big features that IPFS lacks right now is content discoverability. A 
 - Users can search for modules in the npm registry via IPFS
 - Users can learn about the latest registry index (module updates) via IPFS
 - Unixfs v2 is finalized and is the default format for new content added to IPFS
-- Improved documentation, specs and examples 🔄 🤝 🧠 (P2)
-- Improving the docs, specs and having great tutorials and examples goes a long way to realising the distributed web for the simple reason that if people can’t drop by and pick up IPFS easily they’re less likely to use it. This milestone addresses that problem and also helps people already invested in IPFS to continue to build on top of it.
+
+### `M (P2)`: Improved documentation, specs and examples 🔄 🤝 🧠
+
+Improving the docs, specs and having great tutorials and examples goes a long way to realising the distributed web for the simple reason that if people can’t drop by and pick up IPFS easily they’re less likely to use it. This milestone addresses that problem and also helps people already invested in IPFS to continue to build on top of it.
+
 - Code level:
   - Functions/methods all have meaningful descriptions
   - Functions/methods all have inline examples
   - Parameters are all documented, including types and defaults
   - Return values are documented, including object properties and types
-  - Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
+- Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
 
 ### `M (P0)`: Revamped APIs 🔄 🤝 🧠
 
