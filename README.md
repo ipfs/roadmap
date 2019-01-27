@@ -86,7 +86,7 @@ The IPFS project is the collective work of serveral focused teams, called Workin
 
 ## 2019 Epics
 
-We've distilled the key themes from the Working Group Roadmaps into a list Epic Endevours that give an overview of the primary targets IPFS has for 2019. If you are pumped about these Epics and want to help, you can get involved! See the call to action (CTA) for each section below.
+We've distilled the key themes from the Working Group Roadmaps into a list Epic Endeavours that give an overview of the primary targets IPFS has for 2019. If you are pumped about these Epics and want to help, you can get involved! See the call to action (CTA) for each section below.
 
 ### 1. The reference implementations of the IPFS Protocol (Go & JS) becomes Production Ready
 
@@ -101,7 +101,7 @@ You can contribute to these Epic by testing, debugging, documenting or coding on
 
 ### 2. Support Software Package Managers into entering the Distributed Web
 
-Software Package Managers are an ideal use-case for Content Addressing. Develeopers could fetch packages team mates on their local network instead of asking a centralized Package Registries and our tools could verify that the code we run is exactly the code that the authors intended.
+Software Package Managers are an ideal use-case for Content Addressing. Developers could fetch packages team mates on their local network instead of asking a centralized Package Registries and our tools could verify that the code we run is exactly the code that the authors intended.
 - Kick-off a Package Managers Working Group to work closely with different Package Managers and understand each one challenges and needs.
 - Publish a report on the results from adding the NPM Registry to IPFS.
 - Meet the scalability and performance needs to serve the Package Management user-case.
