@@ -47,13 +47,9 @@ At the same time, we will continue supporting **🤝 Supporting community growth
 
 **Why setting a single priority?**
 
-The 2019 priority is geared to grow our maturity as a project, increase our adoption and community, and set ourselves up for the future. To be successful, we need to level-up our ability to land complete, polished, and accessible improvements that meet our user's needs for stability, scalability, privacy, and security. We need to keep growing intelligently, both by the types of communities that can help us accelerate growth and by the number of users they can help us reach. And we need to set ourselves up with the understanding and capabilities to reach our future goals for the project and scale our impact.
+The 2019 priority is geared to grow our maturity as a project, increase our adoption and community, and set ourselves up for the future. To be successful, we need to level-up our ability to land complete, polished, and accessible improvements that meet our user's needs for stability, scalability, privacy, and security. We need to keep growing intelligently, both by the types of communities that can help us accelerate growth and by the number of users they can help us reach. And we need to set ourselves up with the understanding and capabilities to reach our future goals for the project and scale our impact. We are confident that by aligning on *one* ambitious priority, we will be leveling up the core baseline of the IPFS Protocol, making it ready to tackle all the other goals that follow. 
 
-We designed a sorting function to help us identify goals that 1) we can land end-to-end in 2019, 2) will bring new partners and users into the community, and 3) will set us up for future goals while delivering near-term value.
-
-After sorting, we identified what was the most achiavable (lower D) with largest Ecosystem Growth (higher E) and that would translate into Impact to our Ecosystems and Project (higher I).
-
-We are confident that by aligning in one ambitious priority, we will be leveling up the core baseline of the IPFS Protocol, making it ready to tackle all the other goals that follow. 
+To help us identify our top priority, we designed a sorting function to prioritize goals that 1) we can land end-to-end in 2019, 2) will bring new partners and users into the community, and 3) will set us up for future goals while delivering near-term value. After sorting, we identified what was the most achiavable (lower D) with largest Ecosystem Growth (higher E) and that would translate into Impact to our Ecosystems and Project (higher I).
 
 **Sorting Function Explanation**
 
