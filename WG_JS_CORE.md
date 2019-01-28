@@ -11,28 +11,30 @@
 **Current Projects**
 - JS IPFS
 - JS IPFS API
-- Go & JS IPFS Interop
-- Npm on IPFS
+- [Go & JS IPFS Interop Test Suite](http://github.com/ipfs/interop)
+- NPM on IPFS
 - IPFS Service Worker Gateway
 - IPFS Geo IP
-- IPFS Performance Profiling
-- benchmark-js.ipfs.io
+- [IPFS Performance Profiling](http://github.com/ipfs/ipfs-performance-profiling)
+- https://benchmark-js.ipfs.io
+- https://js.ipfs.io
+- https://benchmarks.ipfs.team/
 
 
 ## 🚀 Major 2019 Goals to achieve
 
 The major goals below and following milestones have been labeled with the emoji for the goal in the IPFS Project Roadmap that they contribute towards:
  
-📦 = Package Managers  🗂 = Large Files  🔄 = Decentralized Web  🤝 = Partner Use Cases  🧠 = Strategic Projects
+📦 = Package Managers  🤝 = Partner Use Cases
  
-- JS IPFS is ready for use in production. It is stable, performant, and interoperable with other IPFS implementations 📦 🗂 🔄 🤝 🧠
-- JS IPFS can ingest and move data with similar speeds to rsync or wget 📦 🗂 🔄 🤝
-- Data on JS IPFS is searchable both online and offline 📦 🔄 🤝
-- Developer experience is a joy  🔄 🤝 🧠
+- JS IPFS is ready for use in production. It is stable, performant, and interoperable with other IPFS implementations 📦 🤝
+- JS IPFS can ingest and move data with similar speeds to rsync or wget 📦 🤝
+- Data on JS IPFS is searchable both online and offline 📦 🤝
+- Developer experience is a joy 🤝
 
 ## 💎 Milestones
 
-### `M (P0)`: Production ready 📦 🗂 🔄 🤝 🧠
+### `M (P0)`: Production ready 📦 🤝
 
 JS IPFS has for a long time now been under heavy development with a focus on implementing features. We’re now at a stage where it has a good level of feature parity to Go IPFS. Implementing the last key missing features and focused attention on performance, stability and security issues will allow JS IPFS to be a viable alternative to Go IPFS.
 
@@ -50,7 +52,7 @@ JS IPFS has for a long time now been under heavy development with a focus on imp
 - An IPFS log API is implemented and tests ensure log messages are part of the API
 - A security audit is conducted on the code base and all issues resolved
 
-### `M (P1)`: Optimized for browser environments 🔄 🤝 🧠
+### `M (P1)`: Optimized for browser environments 📦 🤝
 
 One of the biggest challenges that faces JS IPFS is that it will be used in many different environments where the tools and resources available to it differ significantly. JS IPFS can be run in a browser (Chrome, Firefox etc.), in a web extension, in Node.js on a laptop or on a server, in Electron, on mobile or even on IoT devices. Not only does the runtime differ - Node.js, Blink, SpiderMonkey etc. but the APIs available (no filesystem or low level network in a browser) as well as the hardware resources available e.g. mobile or IoT.
 
@@ -67,7 +69,7 @@ One of the biggest challenges that faces JS IPFS is that it will be used in many
 - A JS IPFS daemon can run on a Raspberry Pi for at least 1 month
 - Example projects exist for running JS IPFS in a web view on iOS and Android
 
-### `M (P1)`: Installable npm modules via JS IPFS 📦 🗂 🔄 🧠
+### `M (P1)`: Installable npm modules via JS IPFS 📦
 
 The npm registry is one of the biggest data sets JS developers interact with daily. There’s a myriad of benefits to it being accessible on the IPFS network. We’ll enable this at the same time as proving out the ability for JS IPFS to deal with large data sets.
 
@@ -78,7 +80,7 @@ The npm registry is one of the biggest data sets JS developers interact with dai
 - Installing any module is faster than using npm when 5 peers on the local network already have the package
 Node.js binaries are distributed via IPFS (making the whole Node.js/NPM installation process happen over IPFS)
  
-### `M (P2)`: Discoverable npm modules via JS IPFS 📦 🗂 🔄 🧠
+### `M (P2)`: Discoverable npm modules via JS IPFS 📦
 
 One of the big features that IPFS lacks right now is content discoverability. A mechanism of searching for content on the IPFS network would greatly improve the situation. Considering our milestone of installing npm modules via JS IPFS, it makes sense to augment it with a search component to make it more attractive and useful as well as allowing us to achieve our major goal of adding search to JS IPFS.
  
@@ -86,7 +88,7 @@ One of the big features that IPFS lacks right now is content discoverability. A 
 - Users can learn about the latest registry index (module updates) via IPFS
 - Unixfs v2 is finalized and is the default format for new content added to IPFS
 
-### `M (P2)`: Improved documentation, specs and examples 🔄 🤝 🧠
+### `M (P2)`: Improved documentation, specs and examples 🤝
 
 Improving the docs, specs and having great tutorials and examples goes a long way to realising the distributed web for the simple reason that if people can’t drop by and pick up IPFS easily they’re less likely to use it. This milestone addresses that problem and also helps people already invested in IPFS to continue to build on top of it.
 
@@ -97,7 +99,7 @@ Improving the docs, specs and having great tutorials and examples goes a long wa
   - Return values are documented, including object properties and types
 - Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
 
-### `M (P0)`: Revamped APIs 🔄 🤝 🧠
+### `M (P0)`: Revamped APIs 📦 🤝
 
 Revamping the APIs will make them easier to use and simpler to understand. Using modern syntax will make JS IPFS appealing to a wider segment of the JS community, aiding adoption and contributions. It also gives us scope to make performance optimisations and stability/debuggability improvements.
 
@@ -111,11 +113,11 @@ Revamping the APIs will make them easier to use and simpler to understand. Using
 - Old APIs are deprecated and removed (e.g. object, block)
 - At least one alternative API exists for JS IPFS (e.g. Graphql)
 
-### `M (P3)`: Support for specific use cases 🔄 🤝 🧠
+### `M (P3)`: Increased support for Package Managers, specifically 📦 🤝
 
-This milestone focuses in on how JS IPFS can refine and augment it’s existing tech stack to better serve specific use cases.
+This milestone focuses in on how JS IPFS can refine and augment it’s existing tech stack to better serve the Package Managers Usecase use cases.
 
-- Default chunkers exist for particular file types to optimise for example deduplication or seeking/direct access in tar archives and video files
+- Default chunkers exist for particular file types to optimise for example deduplication or seeking/direct access in tar archives
 - High priority features requested from other working groups that have experienced pain points with the JS IPFS API are implemented e.g. Pagination and “Live” streams
 - IPFS nodes can discover one another for specific topics via the rendezvous protocol
 -star servers are no longer in use
@@ -124,7 +126,12 @@ This milestone focuses in on how JS IPFS can refine and augment it’s existing 
 
 ## Timeline
 
-- Q1
-- Q2
-- Q3
-- Q4
+`TODO`
+
+### Q1
+
+### Q2
+
+### Q3
+
+### Q4
