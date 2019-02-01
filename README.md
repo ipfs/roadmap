@@ -90,7 +90,7 @@ We've been working hard on improving and iterating on the IPFS Protocol to make 
 - Complete Specification of the Protocol
 - Security Audits and Security Program
 - Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default
-- Bring js-ipfs and go-ipfs to v1.0.0
+- The migration to Base32 CIDs is completed across all projects and IPFS Gateway.
 
 You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
 
@@ -113,10 +113,10 @@ Our friends from libp2p will be playing the larger role into achieving this goal
 
 ### 4. The IPFS Community gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
 
-Yes, you read the title right. The IPFS Community is going to organise the first "IPFS Conf" in the beautiful city of Lisbon. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
+Yes, you read the title right. The IPFS Community is going to meet for the first large IPFS Event. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
 - Host the 1st Conference for the IPFS Community.
 
-More details will be public soon, meanwhile, make plans to visit Lisbon in June! Subscribe for updates [here](https://github.com/ipfs/conf#ipfsconf-lisbon-2019).
+More details will be public soon. Subscribe for updates [here](https://github.com/ipfs/conf).
 
 ### 5. IPFS testing, benchmarks, and performance optimizations
 
