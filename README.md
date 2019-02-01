@@ -111,7 +111,7 @@ To support the continued growth of the IPFS Network, we will be testing, benchma
 
 Our friends from libp2p will be playing the larger role into achieving this goal. If you are a Networks specialist and/or if you like scaling systems to serve hundreds of millions, join the conversation at [Bi-Weekly Call](https://github.com/libp2p/team-mgmt#bi-weekly-call) and learn more.
 
-### 4. The IPFS Community gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
+### 4. The IPFS Community of Builders gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
 
 Yes, you read the title right. The IPFS Community is going to meet for the first large IPFS Event. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
 - Host the 1st Conference for the IPFS Community.
