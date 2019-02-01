@@ -50,20 +50,21 @@ The Go IPFS Working Group is responsible for the development of the Go IPFS impl
 
 Go-IPFS is fast, efficient and stable when handling and transferring large amounts of data. (“large files” = 10GB - 1TB, “many small files” = 10K-1M 1MB files). The goals in this section are exclusive of finding the data (DHT/providers etc.). This is just the speed of transferring data when already connected to IPFS nodes that have that data.
 
-* `M (P0)`: Awesome go-ipfs benchmark test suite exists comparing ipfs performance and transfer size relative to bittorrent, rsync, http, cp, dd
+* Q1 - `M (P0)`: Awesome go-ipfs benchmark test suite exists comparing ipfs performance and transfer size relative to bittorrent
+* Q2 - `M (P0)`: Expand benchmark test suite to compare relative to rsync, http, cp, dd
 * `M (P0)`: Go-IPFS bitswap (or equivalent) can transfer large files from many peers at 0.8 times the speed of BitTorrent. 
-   * Bitswap session improvements that improve transfer efficiency by reducing duplicate blocks and efficiently fetching related data from many peers simultaneously. 
+   * Q1 - Bitswap session improvements that improve transfer efficiency by reducing duplicate blocks and efficiently fetching related data from many peers simultaneously. 
    * Graphsync selector implementation that can understand non-overlapping subsets of data to select from multiple hosts and the driver that can build up graphsync requests for many peers to maximize efficiency and throughput. 
 * `M (P0)`: Go-IPFS can transfer many small files at 0.8 times the speed of rsync (for single peers) or BitTorrent (for many peers)
    * Bitswap session improvements
    * Graph Exchange that can route requests efficiently
-   * Graphsync
-   * Flexible provider strategies
+   * Q1 - Graphsync makes accessing files in large directories log(n) faster
+   * Q1 - Flexible provider strategies
 * `M (P1)`: Go-IPFS can transfer large files from a single peer at 0.8 times the speed of HTTP. 
-   * Flexible provider strategies to use the DHT efficiently (and therefore not slow IPFS down while adding/fetching files) while still preserving the reachability of data. 
+   * Q1 - Flexible provider strategies to use the DHT efficiently (and therefore not slow IPFS down while adding/fetching files) while still preserving the reachability of data. 
 * `M (P1)`: Go-IPFS can add a directory of many small files at 50% the speed of a simple local hard drive copy (or dd) (10k x 1MB files)
    * Flexible provider strategies to limit the number of DHT provider advertisements we make
-   * Faster datastore (Badger or equivalent) that doesn’t slow down as the number of blocks stored grows large
+   * Q1 - Faster datastore (Badger or equivalent) that doesn’t slow down as the number of blocks stored grows large
    * GC improvements (transactions, speed)
 * `M (P2)`: Data transferred over the network is no more than 1.2x the size of the data being transferred 
    * Bitswap session improvements to reduce duplicates
@@ -76,8 +77,8 @@ go-ipfs is the go-to backend for building DApps.
 
 * `M (P0)`: Provider lookups are efficient (<1 sec) in real-world network conditions (ex between physically distant peers)
 * `M (P0)`: ipfs://, ipns:// work in web browsers
-   * Base32 CIDs by default
-   * Base32 IPNS keys (or make IPNS keys CIDs)
+   * Q1 - Base32 CIDs by default
+   * Q2 - Base32 IPNS keys (or make IPNS keys CIDs)
 * `M (PX)`: <1 sec IPNS resolution for any IPNS record
    * QUIC
    * NAT detection/traversal
@@ -99,7 +100,7 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
    * Technical debt is paid off, all "indefinitely-in-progress" refactors are completed.
    * Cleanup/rethink abstraction layers with 20-20 hindsight.
    * Re-structure repos into reusable but not fragmented components.
-* `M (P0)`: (all) Go-IPFS is usable without gx
+* `Q1 - M (P0)`: (all) Go-IPFS is usable without gx
    * Fix the versions (make them all sub-0)
    * Add go.mod files to every package
    * Merge #5435.
@@ -149,7 +150,7 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
       * UnixFS v2 (with a good HAMT)
    * The DHT is extensible
       * Multi-DHT: https://github.com/ipfs/notes/issues/291#issuecomment-414495124
-* `M (P0)`: Have a solution for testing/benchmarking
+* `Q1 - M (P0)`: Have a solution for testing/benchmarking
    * Available for offline testing.
    * Reproducibility (across different platforms).
    * Provide realistic Internet/WAN simulations (with delays and dropped packets).
