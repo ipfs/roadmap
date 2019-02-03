@@ -89,7 +89,7 @@ We've been working hard on improving and iterating on the IPFS Protocol to make 
 - IPFS core solidified and APIs revamped/crystalized to be future-proof
 - Complete Specification of the Protocol
 - Security Audits and Security Program
-- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default
+- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default and in a reproducible way
 - The migration to Base32 CIDs is completed across all projects and IPFS Gateway.
 
 You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
