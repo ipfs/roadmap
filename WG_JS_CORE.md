@@ -76,7 +76,6 @@ The npm registry is one of the biggest data sets JS developers interact with dai
 - Installing npm modules over LAN never fails (provided the module is available on another IPFS node connected to the LAN)
 - Installing any module is faster than using npm when 5 peers on the local network already have the package
 Node.js binaries are distributed via IPFS (making the whole Node.js/NPM installation process happen over IPFS)
-- Default chunkers exist for particular file types to optimise for example deduplication or seeking/direct access in tar archives
 
 ### `M (P2)`: Discoverable npm modules via JS IPFS 📦
 
