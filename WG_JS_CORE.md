@@ -112,12 +112,76 @@ Revamping the APIs will make them easier to use and simpler to understand. Using
 
 ## Timeline
 
-`TODO`
+N.B. Some big goals span multiple quarters and so are listed multiple times.
 
 ### Q1
+* `M (P0)`: Revamped APIs (Part 1)
+    - Async/await is used throughout the codebase and callback APIs are dropped
+    - Streaming APIs switch to using async iterators/iterables
+* `M (P0)`: Production ready (Part 1)
+    - A JS IPFS daemon runs as part of the IPFS gateway cluster for at least 1 month without crashing
+    - Performance metrics for a JS IPFS node are measurable:
+        - Tools can process and graph performance data
+        - Data can be queried to track down bugs and performance bottlenecks
+    - An interoperable DHT exists and scales to hundreds of thousands of nodes
+* `M (P1)`: Installable npm modules via JS IPFS (Part 1)
+    - There is an option to select IPFS as a transport on npm/yarn
+    - A CLI tool exists to install packages directly from IPFS
+    - JS IPFS can ingest the entire npm registry
 
 ### Q2
+* `M (P0)`: Production ready (Part 2)
+    - A JS IPFS daemon runs as part of the IPFS gateway cluster for at least 1 month without crashing
+    - JS IPFS nodes can discover one another for specific topics via the rendezvous protocol
+        - \*-star servers are no longer in use
+    - A gossipsub implementation exists
+    - Benchmarks exist to assert that:
+        - Memory footprint remains stable and should not consume more than 20% more memory than a Go IPFS node
+        - Network throughput is within an acceptable magnitude of Go IPFS
+        - Data can be fetched with comparable speeds to tools like bittorrent, wget or rsync when 5 peers are connected who already have the data
+        - Data can be exchanged with another IPFS node within 2x the speed a Go IPFS node would exchange it
+* `M (P1)`: Optimized for browser environments (Part 1)
+    - Default performance profiles exist and can be enabled to adapt IPFS behaviour appropriately to its environment. In addition to the profiles [described here](https://github.com/ipfs/go-ipfs/blob/master/docs/config.md#profiles), there will be a browser specific performance profile.
+    - Full build bundle size is monitored and does not exceed 2MB (minified)
+* `M (P0)`: Revamped APIs (Part 2)
+    - Async/await is used throughout the codebase and callback APIs are dropped
+    - Streaming APIs switch to using async iterators/iterables
+* `M (P1)`: Installable npm modules via JS IPFS (Part 2)
+    - Installing npm modules over LAN never fails (provided the module is available on another IPFS node connected to the LAN)
+    - Installing any module is faster than using npm when 5 peers on the local network already have the package
+    Node.js binaries are distributed via IPFS (making the whole Node.js/NPM installation process happen over IPFS)
 
 ### Q3
+* `M (P0)`: Revamped APIs (Part 3)
+    - The files API is revamped:
+        - Files functions moved to the root namespace
+        - Non-MFS and MFS functions are merged
+        - A revamped RESTful HTTP API exists
+* `M (P0)`: Production ready (Part 3)
+    - JS IPFS nodes use, and are compliant with the MDNS spec
+    - An IPFS log API is implemented and tests ensure log messages are part of the API
+* `M (P1)`: Optimized for browser environments (Part 2)
+    - The JS IPFS build can be customised to exclude functionality or include different modules that are more appropriate for a particular runtime environment
+    - At least 2 recommended builds for common environments will be provided in addition to the full build
+    - Developers can tailor an IPFS build to their specific needs
+    - Examples for bundling JS IPFS with common tools such as webpack/parcel exist
+* `M (P2)`: Discoverable npm modules via JS IPFS (Part 1)
+    - Users can search for modules in the npm registry via IPFS
+    - Users can learn about the latest registry index (module updates) via IPFS
 
 ### Q4
+* `M (P0)`: Production ready (Part 4)
+    - A security audit is conducted on the code base and all issues resolved
+* `M (P0)`: Revamped APIs (Part 4)
+    - Old APIs are deprecated and removed (e.g. object, block)
+    - ArrayBuffer is supported as an alternative to Buffer input argument
+    - High priority features requested from other working groups that have experienced pain points with the JS IPFS API are implemented e.g. Pagination and “Live” streams
+* `M (P2)`: Improved documentation, specs and examples
+    - Code level:
+      - Functions/methods all have meaningful descriptions
+      - Functions/methods all have inline examples
+      - Parameters are all documented, including types and defaults
+      - Return values are documented, including object properties and types
+    - Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
+* `M (P2)`: Discoverable npm modules via JS IPFS (Part 2)
+    - Unixfs v2 is finalized and is the default format for new content added to IPFS
