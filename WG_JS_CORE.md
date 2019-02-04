@@ -59,7 +59,7 @@ JS IPFS has for a long time now been under heavy development with a focus on imp
 
 One of the biggest challenges that faces JS IPFS is that it will be used in many different environments where the tools and resources available to it differ significantly. JS IPFS can be run in a browser (Chrome, Firefox etc.), in a web extension, in Node.js on a laptop or on a server, in Electron, on mobile or even on IoT devices. Not only does the runtime differ - Node.js, Blink, SpiderMonkey etc. but the APIs available (no filesystem or low level network in a browser) as well as the hardware resources available e.g. mobile or IoT.
 
-- Default performance profiles exist and can be enabled to adapt IPFS behaviour appropriately to its environment. In addition to the profiles [described here](https://github.com/ipfs/go-ipfs/blob/master/docs/config.md#profiles), we'll also add a browser specific performance profile.
+- Default performance profiles exist and can be enabled to adapt IPFS behaviour appropriately to its environment. In addition to the profiles [described here](https://github.com/ipfs/go-ipfs/blob/master/docs/config.md#profiles), there will be a browser specific performance profile.
 - The JS IPFS build can be customised to exclude functionality or include different modules that are more appropriate for a particular runtime environment
 - At least 2 recommended builds for common environments will be provided in addition to the full build
 - Developers can tailor an IPFS build to their specific needs
@@ -102,19 +102,13 @@ Improving the docs, specs and having great tutorials and examples goes a long wa
 Revamping the APIs will make them easier to use and simpler to understand. Using modern syntax will make JS IPFS appealing to a wider segment of the JS community, aiding adoption and contributions. It also gives us scope to make performance optimisations and stability/debuggability improvements.
 
 - Async/await is used throughout the codebase and callback APIs are dropped
-- Support ArrayBuffer as an alternative to Buffer input argument
+- ArrayBuffer is supported as an alternative to Buffer input argument
 - Streaming APIs switch to using async iterators/iterables
 - The files API is revamped:
     - Files functions moved to the root namespace
     - Non-MFS and MFS functions are merged
     - A revamped RESTful HTTP API exists
 - Old APIs are deprecated and removed (e.g. object, block)
-- At least one alternative API exists for JS IPFS (e.g. Graphql)
-
-### `M (P3)`: Increased support for Package Managers, specifically 📦 🤝
-
-This milestone focuses in on how JS IPFS can refine and augment its existing tech stack to better serve the Package Managers use case.
-
 - High priority features requested from other working groups that have experienced pain points with the JS IPFS API are implemented e.g. Pagination and “Live” streams
 
 ## Timeline
