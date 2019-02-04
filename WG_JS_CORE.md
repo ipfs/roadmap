@@ -166,8 +166,7 @@ N.B. Some big goals span multiple quarters and so are listed multiple times.
     - Developers can tailor an IPFS build to their specific needs
     - Examples for bundling JS IPFS with common tools such as webpack/parcel exist
 * `M (P2)`: Discoverable npm modules via JS IPFS (Part 1)
-    - Users can search for modules in the npm registry via IPFS
-    - Users can learn about the latest registry index (module updates) via IPFS
+    - Unixfs v2 is finalized and is the default format for new content added to IPFS
 
 ### Q4
 * `M (P0)`: Production ready (Part 4)
@@ -184,4 +183,5 @@ N.B. Some big goals span multiple quarters and so are listed multiple times.
       - Return values are documented, including object properties and types
     - Onboarding documentation exists to explain domain concepts and provide tutorials/examples for achieving common tasks
 * `M (P2)`: Discoverable npm modules via JS IPFS (Part 2)
-    - Unixfs v2 is finalized and is the default format for new content added to IPFS
+    - Users can search for modules in the npm registry via IPFS
+    - Users can learn about the latest registry index (module updates) via IPFS
