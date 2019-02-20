@@ -39,11 +39,11 @@ We believe that:
 
 ## 2019 Priority
 
-We will be focusing our efforts into a single (lazer focus) priority. **📦 Supporting Package Managers**
+We will be focusing our efforts into a single (lazer focus) priority. **📦 Package Managers**
 
 Adding end-to-end support for package managers will provide a verifiable and co-hostable foundation for a vital use-case that we rely on. It will focus us on delivering performance and stability improvements while introducing IPFS to a huge community who have the skills to contribute back. See inbound interest [here](https://github.com/ipfs/notes/issues?q=is%3Aissue+is%3Aopen+label%3A%22package+managers%22).
 
-At the same time, we will continue supporting **🤝 Supporting community growth** in best way we can, without diverging too much from our main Priority. We want ensure that we are setting up our community for success by addressing key needs to unlock their growth in 2019. Making our users successful and delivering on their top needs to ensure they have a smooth and productive experience with IPFS helps us retain and gain adoption, grow our community, increase our impact, and demonstrate our maturity as a project.
+At the same time, we will continue supporting **🤝 Community Growth** in the best way we can, without diverging too much from our main Priority. We want ensure that we are setting up our community for success by addressing key needs to unlock their growth in 2019. Making our users successful and delivering on their top needs to ensure they have a smooth and productive experience with IPFS helps us retain and gain adoption, grow our community, increase our impact, and demonstrate our maturity as a project.
 
 **Why setting a single priority?**
 
@@ -56,6 +56,10 @@ To help us identify our top priority, we designed a sorting function to prioriti
 > **D** = Difficulty (or "Delta" or "Distance"), **E** = Ecosystem Growth, **I** = Importance
 
 Each goal was given a score from 1 (low) - 5 (high) on each axis. We sorted first in terms of low difficulty or "delta" (i.e.  minimal additional requirements and fewer dependencies from the capabilities IPFS has now), then high ecosystem growth (growing our community and resources to help us gravity assist and accelerate our progress), and finally high importance (we want IPFS to have a strong, positive impact on the world). See the [2019 Goals (expanded)](#2019-goals-expanded) and [2020+ Goals](#2020-goals) sections for sorted priorities.
+
+**February Roadmap Update**
+
+We rescoped our 2019 priorities in early Q1 to narrow in from 3 top-level priorities (also including [Large Files](#-large-files-d1-e4-i3) and [Decentralized Web](#-decentralized-web-d2-e4-i3)) to one ([Package Managers](#-package-managers-d1-e5-i3)) - so we could focus on doing the most important work *really well* instead of spreading ourselves too thin on many priorities, which we already felt ourselves doing. This descoping impacted the working group roadmaps we had drafted, and the Q1 OKRs we had already taken on. However, we decided to finish out our Q1 endeavors while we descoped our working group roadmaps and packaged up out-of-scope projects to set down smoothly, and to start our revamped roadmaps in Q2 with more focused and streamlined objectives, initiatives, and goals.
 
 ## 2019 Working Groups Roadmaps
 
@@ -74,14 +78,14 @@ The IPFS project is the collective work of serveral focused teams, called Workin
 
 ## 2019 IPLD & libp2p Roadmaps
 
-You can find the IPFS sister projects Roadmaps at:
+You can find the IPFS sister projects' Roadmaps at:
 
 - [libp2p](https://docs.google.com/document/d/1Rd4yNw1TNQBvfRrKeEMSTseb6fvPzS-C--obOn0nul8/edit)
 - [IPLD](https://github.com/ipld/roadmap)
 
 ## 2019 Epics
 
-We've distilled the key themes from the Working Group Roadmaps into a list Epic Endeavours that give an overview of the primary targets IPFS has for 2019. If you are pumped about these Epics and want to help, you can get involved! See the call to action (CTA) for each section below.
+We've distilled the key themes from the Working Group Roadmaps into a list of **Epic Endeavours** that give an overview of the primary targets IPFS has for 2019. If you are pumped about these Epics and want to help, you can get involved! See the call to action (CTA) for each section below.
 
 ### 1. The reference implementations of the IPFS Protocol (Go & JS) becomes Production Ready
 
@@ -94,7 +98,7 @@ We've been working hard on improving and iterating on the IPFS Protocol to make 
 
 You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
 
-### 2. Support Software Package Managers into entering the Distributed Web
+### 2. Support Software Package Managers in entering the Distributed Web
 
 Software Package Managers are an ideal use-case for Content Addressing. Developers could fetch packages team mates on their local network instead of asking a centralized Package Registries and our tools could verify that the code we run is exactly the code that the authors intended.
 - Kick-off a Package Managers Working Group to work closely with different Package Managers and understand each one challenges and needs.
@@ -105,11 +109,11 @@ We will be booting the Package Managers Working Group in early 2019, meanwhile, 
 
 ### 3. Scale the IPFS Network
 
-To support the continued growth of the IPFS Network, we will be testing, benchmarking the protocol at scale.
+To support the continued growth of the IPFS Network, we will be testing and benchmarking the protocol at scale.
 - Deploy a P2P testbed for Distributed Protocols that enables us to spin up hundreds of thousands of nodes on demand and run tests on them.
 - IPFS has an opt-in Telemetry system so that tests can collect key data to understand the experiments.
 
-Our friends from libp2p will be playing the larger role into achieving this goal. If you are a Networks specialist and/or if you like scaling systems to serve hundreds of millions, join the conversation at [Bi-Weekly Call](https://github.com/libp2p/team-mgmt#bi-weekly-call) and learn more.
+Our friends from libp2p will be playing the larger role in achieving this goal. If you are a Networks specialist and/or if you like scaling systems to serve hundreds of millions, join the conversation in the [Bi-Weekly Libp2p Call](https://github.com/libp2p/team-mgmt#bi-weekly-call) and learn more.
 
 ### 4. The IPFS Community of Builders gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
 
