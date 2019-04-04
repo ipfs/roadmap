@@ -7,7 +7,7 @@
 - [2019 Working Groups Roadmaps](#2019-working-groups-roadmaps)
 - [2019 IPLD & libp2p Roadmaps](#2019-ipld--libp2p-roadmaps)
 - [2019 Epics](#2019-epics)
-- [2019 Goals (expanded)](#2019-goals-expanded)
+- [2019 Goal (expanded)](#2019-goal-expanded)
   - [📦 Package Managers](#-package-managers-d1-e5-i3)
 - [2020+ Goals](#2020-goals)
   - [🗂 Large Files](#-large-files-d1-e4-i3)
