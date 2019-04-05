@@ -1,5 +1,7 @@
 # IPFS Go Core Dev Team - Roadmap 2019
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 The Go IPFS Working Group is responsible for the development of the Go IPFS implementation and participating in the planning and development of IPFS in general. 
 
 ### Responsibilities include:
