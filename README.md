@@ -1,4 +1,4 @@
-# IPFS Project Roadmap v0.5.0
+# IPFS Project Roadmap v0.5.1
 
 ## Table of Contents
 
@@ -115,12 +115,12 @@ To support the continued growth of the IPFS Network, we will be testing and benc
 
 Our friends from libp2p will be playing the larger role in achieving this goal. If you are a Networks specialist and/or if you like scaling systems to serve hundreds of millions, join the conversation in the [Bi-Weekly Libp2p Call](https://github.com/libp2p/team-mgmt#bi-weekly-call) and learn more.
 
-### 4. The IPFS Community of Builders gets together for the 1st [IPFS Conf](https://github.com/ipfs/conf)
+### 4. The IPFS Community of Builders gets together for the 1st [IPFS Camp](https://github.com/ipfs/camp)
 
 Yes, you read the title right. The IPFS Community is going to meet for the first large IPFS Event. This will be an event for all the users and builders of the DWeb to come together to learn about the exciting progress that has been happening.
 - Host the 1st Conference for the IPFS Community.
 
-More details will be public soon. Subscribe for updates [here](https://github.com/ipfs/conf).
+More details will be public soon. Subscribe for updates [here](https://github.com/ipfs/camp).
 
 ### 5. IPFS testing, benchmarks, and performance optimizations
 
