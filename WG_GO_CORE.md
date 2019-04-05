@@ -32,6 +32,11 @@ The Go IPFS Working Group is responsible for the development of the Go IPFS impl
 
 ### 📦 Package managers
 
+For the core implementation of IPFS to support package manager needs - go-ipfs needs to be fast, efficient and stable when handling and transferring large amounts of data. It also needs to understand and support the specific tooling and usability needs of the package manager community.
+
+NOTE: “large files” = 10GB - 1TB, “many small files” = 10K-1M 1MB files. Benchmark goals refer to the speed of transferring data when already connected to IPFS nodes that have that data (not finding the data).
+
+#### Understanding Package Manager needs
 * `M (P0)`: The IPFS core team understands the needs of package management communities and engages their interest
    * Meet people from various package management communities -- both distros and language tooling -- and learn about their needs
    * Support interested package manager communities with DRIs
@@ -47,11 +52,7 @@ The Go IPFS Working Group is responsible for the development of the Go IPFS impl
 * `M (P1)`: There is a way to prioritize different peers to optimize network utilization
    * Bitswap peer prioritization supports pinning local / responsive peers 
 
-
-### 🗂 Large Files
-
-Go-IPFS is fast, efficient and stable when handling and transferring large amounts of data. (“large files” = 10GB - 1TB, “many small files” = 10K-1M 1MB files). The goals in this section are exclusive of finding the data (DHT/providers etc.). This is just the speed of transferring data when already connected to IPFS nodes that have that data.
-
+#### Supporting Package Manager speed and scalability needs
 * Q1 - `M (P0)`: Awesome go-ipfs benchmark test suite exists comparing ipfs performance and transfer size relative to bittorrent
 * Q2 - `M (P0)`: Expand benchmark test suite to compare relative to rsync, http, cp, dd
 * `M (P0)`: Go-IPFS bitswap (or equivalent) can transfer large files from many peers at 0.8 times the speed of BitTorrent. 
@@ -72,31 +73,11 @@ Go-IPFS is fast, efficient and stable when handling and transferring large amoun
    * Bitswap session improvements to reduce duplicates
    * Graphsync
 
-
-### 🔄 Decentralized Web
-
-go-ipfs is the go-to backend for building DApps.
-
-* `M (P0)`: Provider lookups are efficient (<1 sec) in real-world network conditions (ex between physically distant peers)
-* `M (P0)`: ipfs://, ipns:// work in web browsers
-   * Q1 - Base32 CIDs by default
-   * Q2 - Base32 IPNS keys (or make IPNS keys CIDs)
-* `M (PX)`: <1 sec IPNS resolution for any IPNS record
-   * QUIC
-   * NAT detection/traversal
-   * Only "reachable" nodes join the DHT
-* `M (P1)`: IPFS provides a clean way to persist data (dapps need to store stuff)
-* `M (PX)`: IPFS supports basic dapp requirements for security and private content
-   * dapps are secure (api security, multi tenancy). Apps can't read each other's state
-   * There are examples and documentation for ipfs users to create private-content dapps using IPFS (aka handling encryption on the client side)
-* `M (PX)`: IPFS is usable for building wordpress-level decentralized sites
-   * API doesn't suck (and is fast)
-   * We can build an interactive blogging engine with a built-in editor/publisher entirely in a webapp (backed by a go-ipfs instance). And it's *easy* to do this.
-
 ### 🤝 IPFS Contributors and Developers
 
 Developers using IPFS can rely on go-ipfs as a platform on which to build their product, app, or ecosystem, and new contributors are well supported.
 
+#### Contributors
 * `M (P0)`: (all) Go-IPFS is approachable as a new contributor
    * Go-IPFS internals are well documented
    * Technical debt is paid off, all "indefinitely-in-progress" refactors are completed.
@@ -106,6 +87,21 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
    * Fix the versions (make them all sub-0)
    * Add go.mod files to every package
    * Merge #5435.
+* `M (P0)`: We have a stable core that people can add things to without breaking changes
+   * UnixFS is stable and extensible
+      * UnixFS v2 (with a good HAMT)
+   * The DHT is extensible
+      * Multi-DHT: https://github.com/ipfs/notes/issues/291#issuecomment-414495124
+* `Q1 - M (P0)`: Have a solution for testing/benchmarking
+   * Available for offline testing.
+   * Reproducibility (across different platforms).
+   * Provide realistic Internet/WAN simulations (with delays and dropped packets).
+* `M (P1)`: Interfaces are future-proof enough for 1.0
+   * CoreAPI
+   * Plugins
+   
+#### Developers (Users)
+* `M (P0)`: Provider lookups are efficient (<1 sec) in real-world network conditions (ex between physically distant peers)
 * `M (P0)`: (all) Users can reliably transfer data between any two nodes.
    * Reliable NAT traversal (AutoNAT, relay, TURN, etc).
    * Connection manager doesn't kill useful connections.
@@ -118,7 +114,10 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
    * User documentation.
    * Well designed API interface
    * Well designed API transport
-* `M (P1)`: (Dapps) Fast (< 3s), mutable name resolution (IPNS)
+* `M (P1)`: (machine-learning/package managers) IPFS can handle (and transfer) large (>1M entries) sharded indexes (objects, directories)
+   * Bitswap Improvements (sessions, prediction, etc)
+   * UnixFS-V2 (better directory structure)
+* `M (P1)`: Fast (< 3s), mutable name resolution (IPNS)
    * Reliable DHT.
    * QUIC (for fast connection establishment).
    * Better protocol negotiation (multistream-2.0)
@@ -134,9 +133,6 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
    * Exchanges support multiple protocols (that diagram from hack week)
    * Multi-DHT (https://github.com/ipfs/notes/issues/291#issuecomment-414495124)
    * UnixFS-V2 is implemented
-* `M (P2)`: (machine-learning/package managers) IPFS can handle (and transfer) large (>1M entries) sharded indexes (objects, directories)
-   * Bitswap Improvements (sessions, prediction, etc)
-   * UnixFS-V2 (better directory structure)
 * `M (P3)`: (Dapps) IPFS can locally share data without a shared network
    * A bluetooth (or like) transport
 * `M (P4)`: (anti-censorship) Our IPFS implementations are secure and don't leak sensitive information
@@ -145,28 +141,6 @@ Developers using IPFS can rely on go-ipfs as a platform on which to build their 
    * Add a download-only mode (avoid serving local data)
    * Investigate a privacy-preserving transport
 
-### 🧠 Strategic goals
-
-* `M (P0)`: We have a stable core that people can add things to without breaking changes
-   * UnixFS is stable and extensible
-      * UnixFS v2 (with a good HAMT)
-   * The DHT is extensible
-      * Multi-DHT: https://github.com/ipfs/notes/issues/291#issuecomment-414495124
-* `Q1 - M (P0)`: Have a solution for testing/benchmarking
-   * Available for offline testing.
-   * Reproducibility (across different platforms).
-   * Provide realistic Internet/WAN simulations (with delays and dropped packets).
-* `M (P0)`: Support allow- and deny-lists for content
-   * Required for exposing data by libraries and archives (allowlist)
-   * Required for ease of Copyright compliance (denylist)
-* `M (P1)`: Support read only gateways (not-offline)
-   * Might be more fitting for partners 
-* `M (P1)`: Interfaces are future-proof enough for 1.0
-   * CoreAPI
-   * Plugins
-* `M (P1)`: Grow our own team processes / active contributors to add more project coordination support
-* `M (P2)`: Investigate IPNS that would continue working offline/in small network segment (for future goals)
-* `M (P2)`: Certificate based private networks
 
 ## ⏳ Timeline
 
