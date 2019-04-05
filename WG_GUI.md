@@ -1,5 +1,7 @@
 # IPFS GUI Working Group Roadmap 2019
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 > Build intuitive and accessible user-interfaces for IPFS
 > We want the IPFS apps to support the endeavours of all the working groups, so please add your comments and suggestions to this document.
 
