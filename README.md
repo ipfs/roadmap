@@ -22,7 +22,7 @@
   - [✉️ Package Switched Web](#%EF%B8%8F-package-switched-web-d4-e2-i2)
   - [⛓ Self-Archiving Web](#-self-archiving-web-d4-e4-i4)
   - [🏷 Versioning Datasets](#-versioning-datasets-d4-e3-i3)
-  - [🗃 Interplanetary DevOp](#-interplanetary-devops-d4-e2-i2)
+  - [🗃 Interplanetary DevOps](#-interplanetary-devops-d4-e2-i2)
   - [📖 The World's Knowledge becomes accessible through the DWeb](#-the-worlds-knowledge-becomes-accessible-through-the-dweb-d5-e2-i5)
   - [🌐 WebOS](#-webos-d5-e2-i3)
 
