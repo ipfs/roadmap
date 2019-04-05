@@ -1,5 +1,7 @@
 # IPFS in Web Browsers - Roadmap 2019
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 > Bringing IPFS support to Web Browsers
 
 **Responsibilities**
