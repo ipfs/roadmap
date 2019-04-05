@@ -1,5 +1,7 @@
 # JS Core Dev Team 2019 Roadmap
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 > Oversees the development of the JS implementation of the IPFS protocol and related projects.
  
 **Responsibilities include:**
