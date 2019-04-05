@@ -1,5 +1,7 @@
 # Decentralized Data Stewardship Working Group 2019 Roadmap
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 ## 🚀 Major 2019 Goals
 
 The DDS WG is proposing to own the discovery, design, and development of Cube, a product that helps people own and manage their own pinning service (see draft proposal here). If we get a team to do this, it will allow us deliver a number of the declared 2019 IPFS priorities in ways that are driven by proper user-driven design and well-planned engineering efforts. This is the primary contribution that we would like to make for the benefit of the entire IPFS Project. Meanwhile, we’re going to spin up the Preserving the Public Records events, maintain our partnerships, and help spin up a design team.
