@@ -1,5 +1,7 @@
 # Dynamic Data & Capabilities Working Group Roadmap for 2019
 
+#### _TODO: Descoping to focus on 📦 Package Managers as main 2019 Priority_
+
 > Construct the building blocks that enable developers to create DApps on top of IPFS and libp2p.
 > More precisely:
 > Research and development of building blocks that enable collaborative applications, providing solutions for security, identity, access control, concurrency, synchronization, version control, offline and near-real-time collaboration that can be integrated into IPFS. The Working Group also creates proof of concept applications and works with projects looking to create and maintain production quality dynamic applications built on top of IPFS and libp2p.
