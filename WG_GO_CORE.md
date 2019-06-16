@@ -43,10 +43,10 @@ NOTE: “large files” = 10GB - 1TB, “many small files” = 10K-1M 1MB files.
       * F-droid
       * Guix
       * Snapshots.debian.org ?
-* `M (P0)`: We have understanding and documentation of what kind of scale (in terms of size at one time; and change in size over time) mirroring a package manager archive requires.
+* Q2 - `M (P0)`: We have understanding and documentation of what kind of scale (in terms of size at one time; and change in size over time) mirroring a package manager archive requires.
    * Ex: document how long mirroring npm into IPFS takes
    * Ex: VictorBjelkholm/arch-mirror also exists, let’s make sure we gather stats
-* `M (P1)`: Develop documentation for what Package Distribution with IPFS should look like.
+* Q1&2 - `M (P1)`: Develop documentation for what Package Distribution with IPFS should look like.
    * There is documentation and guidelines to help maintainers from existing package management communities learn about IPFS, explore common alternatives, and figure out what would work for their system
    * Document and highlight best practices for dealing with the common hurdles in moving to immutable-first: e.g. “save packages in a merkle tree; build a package index merkle tree; use IPNS to handle updates of the tip of package index tree”.
 * `M (P1)`: There is a way to prioritize different peers to optimize network utilization
@@ -78,68 +78,68 @@ NOTE: “large files” = 10GB - 1TB, “many small files” = 10K-1M 1MB files.
 Developers using IPFS can rely on go-ipfs as a platform on which to build their product, app, or ecosystem, and new contributors are well supported.
 
 #### Contributors
-* `M (P0)`: (all) Go-IPFS is approachable as a new contributor
+* Q3 - `M (P0)`: (all) Go-IPFS is approachable as a new contributor
    * Go-IPFS internals are well documented
    * Technical debt is paid off, all "indefinitely-in-progress" refactors are completed.
    * Cleanup/rethink abstraction layers with 20-20 hindsight.
    * Re-structure repos into reusable but not fragmented components.
-* `Q1 - M (P0)`: (all) Go-IPFS is usable without gx
+* Q1 - `M (P0)`: (all) Go-IPFS is usable without gx
    * Fix the versions (make them all sub-0)
    * Add go.mod files to every package
    * Merge #5435.
-* `M (P0)`: We have a stable core that people can add things to without breaking changes
+* Q4+ - `M (P0)`: We have a stable core that people can add things to without breaking changes
    * UnixFS is stable and extensible
       * UnixFS v2 (with a good HAMT)
    * The DHT is extensible
       * Multi-DHT: https://github.com/ipfs/notes/issues/291#issuecomment-414495124
-* `Q1 - M (P0)`: Have a solution for testing/benchmarking
+* Q3 - `M (P0)`: Have a solution for testing/benchmarking
    * Available for offline testing.
    * Reproducibility (across different platforms).
    * Provide realistic Internet/WAN simulations (with delays and dropped packets).
-* `M (P1)`: Interfaces are future-proof enough for 1.0
+* Q2+ - `M (P1)`: Interfaces are future-proof enough for 1.0
    * CoreAPI
    * Plugins
    
 #### Developers (Users)
 * `M (P0)`: Provider lookups are efficient (<1 sec) in real-world network conditions (ex between physically distant peers)
-* `M (P0)`: (all) Users can reliably transfer data between any two nodes.
+* Q3 - `M (P0)`: (all) Users can reliably transfer data between any two nodes.
    * Reliable NAT traversal (AutoNAT, relay, TURN, etc).
    * Connection manager doesn't kill useful connections.
    * Scalable content routing
    * Reliable DHT: unreliable nodes don't join the DHT.
-* `M (P0)`: (dapps) ipfs:// and ipns:// work in web browsers
+* Q2 - `M (P0)`: (dapps) ipfs:// and ipns:// work in web browsers
    * Base32 CIDs
    * Base32 IPNS or IPNS uses CIDs
-* `M (P1)`: (all) Go-IPFS is approachable as a user/app developer
+* Q3 - `M (P1)`: (all) Go-IPFS is approachable as a user/app developer
    * User documentation.
    * Well designed API interface
    * Well designed API transport
-* `M (P1)`: (machine-learning/package managers) IPFS can handle (and transfer) large (>1M entries) sharded indexes (objects, directories)
+* Q3 - `M (P1)`: (machine-learning/package managers) IPFS can handle (and transfer) large (>1M entries) sharded indexes (objects, directories)
    * Bitswap Improvements (sessions, prediction, etc)
    * UnixFS-V2 (better directory structure)
-* `M (P1)`: Fast (< 3s), mutable name resolution (IPNS)
+* Q3 - `M (P1)`: Fast (< 3s), mutable name resolution (IPNS)
    * Reliable DHT.
    * QUIC (for fast connection establishment).
    * Better protocol negotiation (multistream-2.0)
    * Delegated Routing
-* `M (P1)`: (Dapps) IPFS Realtime Story is as good as using a centralized service (e.g. Socket.io, Pusher, etc)
-   * The API for doing secure (authenticated) broadcast updates exists 
-* `M (P2)`: Go-ipfs can handle large datasets (>1TiB, >1M nodes)
+* Q3+ - `M (P2)`: Go-ipfs can handle large datasets (>1TiB, >1M nodes)
    * Scalable content routing (providing)
    * DagSync (or at least better bitswap)
    * Reliable, performant datastore
-* `M (P2)`: (all, Dapps) IPFS is pluggable and extensible (9/10 users don't need custom features)
-   * The go-ipfs plugins system is expanded to support new datastores, exchanges, etc
-   * Exchanges support multiple protocols (that diagram from hack week)
-   * Multi-DHT (https://github.com/ipfs/notes/issues/291#issuecomment-414495124)
-   * UnixFS-V2 is implemented
-* `M (P3)`: (Dapps) IPFS can locally share data without a shared network
-   * A bluetooth (or like) transport
-* `M (P4)`: (anti-censorship) Our IPFS implementations are secure and don't leak sensitive information
+* Q3+ - `M (P4)`: (anti-censorship) Our IPFS implementations are secure and don't leak sensitive information
    * Get a security audit
    * Implement the privacy preserving DHT (https://github.com/ipfs/notes/issues/291#issuecomment-396003860)
    * Add a download-only mode (avoid serving local data)
    * Investigate a privacy-preserving transport
+* Q4 - `M (P2)`: (all, Dapps) IPFS is pluggable and extensible (9/10 users don't need custom features)
+   * The go-ipfs plugins system is expanded to support new datastores, exchanges, etc
+   * Exchanges support multiple protocols (that diagram from hack week)
+   * Multi-DHT (https://github.com/ipfs/notes/issues/291#issuecomment-414495124)
+   * UnixFS-V2 is implemented
+* Q4+ - `M (P3)`: (Dapps) IPFS can locally share data without a shared network
+   * A bluetooth (or like) transport
+* TBD - `M (P1)`: (Dapps) IPFS Realtime Story is as good as using a centralized service (e.g. Socket.io, Pusher, etc)
+   * The API for doing secure (authenticated) broadcast updates exists 
 
 
 ## ⏳ Timeline
