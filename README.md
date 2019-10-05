@@ -65,16 +65,16 @@ We rescoped our 2019 priorities in early Q1 to narrow in from 3 top-level priori
 
 The IPFS project is the collective work of serveral focused teams, called Working Groups. Each group defines its own roadmap with tasks and priorities derived from the main IPFS Project Priority for 2019 described above. You can drill-down into each roadmap to get the full picture, or jump to the [2019 epics](#2019-epics) section below for the highlights.
 
-- [Project WG](2019_WG_roadmaps/WG_PROJECT.md)
-- [JS Core](2019_WG_roadmaps/WG_JS_CORE.md)
-- [Go Core](2019_WG_roadmaps/WG_GO_CORE.md)
-- [GUI](2019_WG_roadmaps/WG_GUI.md)
-- [Cluster](2019_WG_roadmaps/WG_CLUSTER.md)
-- [IPFS Infrastructure](2019_WG_roadmaps/WG_INFRASTRUCTURE.md)
-- [Community](2019_WG_roadmaps/WG_COMMUNITY.md)
-- [Integration in Web Browsers](2019_WG_roadmaps/WG_INTEGRATION_IN_WEB_BROWSERS.md)
-- [Dynamic Data & Capabilities](2019_WG_roadmaps/WG_DYNAMIC_DATA_AND_CAPABILITIES.md)
-- [Decentralized Data Stewardship](2019_WG_roadmaps/WG_DECENTRALIZED_DATA_STEWARDSHIP.md)
+- [Project WG](2019%20WG%20roadmaps/WG_PROJECT.md)
+- [JS Core](2019%20WG%20roadmaps/WG_JS_CORE.md)
+- [Go Core](2019%20WG%20roadmaps/WG_GO_CORE.md)
+- [GUI](2019%20WG%20roadmaps/WG_GUI.md)
+- [Cluster](2019%20WG%20roadmaps/WG_CLUSTER.md)
+- [IPFS Infrastructure](2019%20WG%20roadmaps/WG_INFRASTRUCTURE.md)
+- [Community](2019%20WG%20roadmaps/WG_COMMUNITY.md)
+- [Integration in Web Browsers](2019%20WG%20roadmaps/WG_INTEGRATION_IN_WEB_BROWSERS.md)
+- [Dynamic Data & Capabilities](2019%20WG%20roadmaps/WG_DYNAMIC_DATA_AND_CAPABILITIES.md)
+- [Decentralized Data Stewardship](2019%20WG%20roadmaps/WG_DECENTRALIZED_DATA_STEWARDSHIP.md)
 
 ## 2019 IPLD & libp2p Roadmaps
 
