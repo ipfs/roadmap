@@ -74,10 +74,10 @@ We've distilled the key themes from the Working Group Roadmaps into a list of **
 ### 1. The reference implementations of the IPFS Protocol (Go & JS) becomes Production Ready
 
 We've been working hard on improving and iterating on the IPFS Protocol to make sure it serves its users needs and achieves the goal of giving the Web a new super power: Content Addressing. In 2019 we will solidify the core components and ensure IPFS is ready for production systems. Our goals include:
-- IPFS core solidified and APIs revamped/crystalized to be future-proof ❌
+- IPFS core solidified and APIs revamped/crystalized to be future-proof 🔁 / ❌
 - Complete Specification of the Protocol ❌
 - Security Audits and Security Program 🔁
-- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default and in a reproducible way ❌✅
+- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default and in a reproducible way 🔁 / ✅
 - The migration to Base32 CIDs is completed across all projects and IPFS Gateway. ✅
 
 You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
