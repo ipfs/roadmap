@@ -6,8 +6,7 @@ labels: 2020 Theme Proposal
 assignees: momack2
 
 ---
-# Theme Name
-
+_Note, this is part of the [2020 Theme Proposals Process](https://github.com/ipfs/roadmap/blob/master/2020-IPFS-Project-Planning.md) - feel free to create additional/alternate proposals, or discuss this one in the comments!_
 ## Theme description
 _Please describe the theme and what it means for the IPFS Project._
 
