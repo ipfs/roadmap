@@ -8,10 +8,10 @@ This has been an absolutely huge year for IPFS adoption - be that applications b
 This increase in adoption also opened up new challenges for the IPFS Project - especially around accommodating new scalability needs for our DHT, infrastructure, and testing. In addition to continuing work on our core focus for the year - improving IPFS performance and tooling to support adding, updating, and fetching large directories of data from IPFS (aka our “package managers” use case) - we also launched important new work streams to improve IPFS reliability via significant investments in IPFS infrastructure, end-to-end network simulation & testing, and improved documentation ([read more about that here](https://blog.ipfs.io/2019-07-31-operation-task-force/)). We expect those threads of work to continue into 2020 as well, however we also want to hear from folks throughout the community if there are focus areas for 2020 that deserve more attention, research, or prioritization as the Project heads into planning for the next year. **We’d love your input! 👂**
 
 ## Call for _Theme_ Proposals
-To that end, please share your **proposals** for _themes_ for the IPFS Project to invest in more deeply in 2020. These could be specific use cases (like [IPFS for large files](https://github.com/ipfs/roadmap#-large-files-d1-e4-i3)), specific improvement areas (like IPFS developer usability), specific markets (like IPFS for enterprise), specific integrations (like IPFS x blockchain), or more! To suggest a _theme_, please create a new [**2020 Theme Proposal** issue](#TODO) in this repo ([here’s a first example](#TODO)). The hope with using github issues is to help others build on your great ideas in issue comments, and also be inspired to propose their own thoughts for discussion. You aren't limited to only one! ✍️
+To that end, please share your **proposals** for _themes_ for the IPFS Project to invest in more deeply in 2020. These could be specific use cases (like [IPFS for large files](https://github.com/ipfs/roadmap#-large-files-d1-e4-i3)), specific improvement areas (like IPFS developer usability), specific markets (like IPFS for enterprise), specific integrations (like IPFS x blockchain), or more! To suggest a _theme_, please create a new [**2020 Theme Proposal** issue](https://github.com/ipfs/roadmap/issues/new/choose) in this repo ([here’s a first example](https://github.com/ipfs/roadmap/issues/42)). The hope with using github issues is to help others build on your great ideas in issue comments, and also be inspired to propose their own thoughts for discussion. You aren't limited to only one! ✍️
 
 
-### The [2020 Theme Proposal template](#TODO) includes:
+### The [2020 Theme Proposal template](https://github.com/ipfs/roadmap/issues/new/choose) includes:
 - Theme title
 - Problem statement description
 - Core needs & gaps
@@ -32,7 +32,7 @@ To help identify **good** _themes_, here is an incomplete list of some exciting 
 
 
 ### 2020 Planning Process Timeline 📆
-- **Oct 23 - Nov 8**: Open call for 2020 Theme Proposals
+- **Oct 23 - Nov 8**: Open call for 2020 Theme Proposals _(add yours [here](https://github.com/ipfs/roadmap/issues/new/choose))_
 - **Nov 11 - Nov 15**: IPFS 2020 Planning “Spike”
 - **Nov 18 - Nov 22**: Review and feedback on 2020 theme(s) with key stakeholders
 - **Dec 2 - Dec 6**: Finalize and present 2020 theme(s) and updated roadmap
