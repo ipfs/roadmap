@@ -20,7 +20,7 @@ To that end, please share your **proposals** for _themes_ for the IPFS Project t
 - Desired / expected impact
 But also feel free to include any other relevant content!
 
-### Known 2020 Milestones
+### Known 2020 Milestones 🎯
 To help identify **good** _themes_, here is an incomplete list of some exciting milestones coming up in the next year, which may open up new opportunities for IPFS to create value in 2020 and beyond:
 1. Many IPFS-powered dapps will launch betas in early-mid 2020, including a number of teams in attendance at IPFS Camp 2019
 2. Eth2.0 is launching sometime in Q1 2020, building on libp2p as their networking layer
@@ -31,12 +31,12 @@ To help identify **good** _themes_, here is an incomplete list of some exciting 
 7. <Others? Add more here!>
 
 
-### Timeline for the remainder of the 2020 Planning process:
+### 2020 Planning Process Timeline 📆
 - **Oct 23 - Nov 8**: Open call for 2020 Theme Proposals
 - **Nov 11 - Nov 15**: IPFS 2020 Planning “Spike”
 - **Nov 18 - Nov 22**: Review and feedback on 2020 theme(s) with key stakeholders
 - **Dec 2 - Dec 6**: Finalize and present 2020 theme(s) and updated roadmap
 - **Dec 9 - Dec 20**: Project and working group Q1 2020 OKRs
 
-### Credit
+### Credit 🙏
 In planning this year’s roadmapping process, we borrowed a lot of great ideas from the [Rust Roadmapping efforts](https://github.com/rust-lang/rfcs/blob/master/text/1728-north-star.md) of the past few years in addition to learning from what worked well and what we wanted to iterate on from [last year's IPFS planning process](https://blog.ipfs.io/78-ipfs-2019-roadmap/). Check out [the Rust 2019 Roadmap](https://github.com/rust-lang/rfcs/blob/master/text/2657-roadmap-2019.md) for some great exemplars!
