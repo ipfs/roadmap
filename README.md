@@ -207,7 +207,7 @@ The infrastructure protocols (libp2p, IPFS, etc.) and the end-user app protocols
 
 > Large Datasets are open, easy to access, easy to replicate, version controlled, secure, permanent.
 
-We constantly loose access to important information, either because it ceases to exist or simply due to _virtual virtual_ barriers (i.e. censorship, lack of connectivity and so on). Information also often looses its way into the peers that most needed it and there aren't good ways to signal that some dataset wasn't contemplated, referenced. We want to improve this dramatically, making the data that is produced more easy to access through making it versionased, secure and easier to replicate and locate.
+We constantly lose access to important information, either because it ceases to exist or simply due to _virtual virtual_ barriers (i.e. censorship, lack of connectivity and so on). Information also often loses its way into the peers that most needed it and there aren't good ways to signal that some dataset wasn't contemplated, referenced. We want to improve this dramatically, making the data that is produced more easy to access through making it versionased, secure and easier to replicate and locate.
 
 ### ✉️ Package Switched Web (D4 E2 I2)
 
