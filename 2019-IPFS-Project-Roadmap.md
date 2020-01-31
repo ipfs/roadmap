@@ -87,7 +87,7 @@ You can contribute to these Epic by testing, debugging, documenting or coding on
 Software Package Managers are an ideal use-case for Content Addressing. Developers could fetch packages team mates on their local network instead of asking a centralized Package Registries and our tools could verify that the code we run is exactly the code that the authors intended.
 - Kick-off a Package Managers Working Group to work closely with different Package Managers and understand each one challenges and needs. ✅
 - Publish a report on the results from adding the NPM Registry to IPFS. 🔁
-- Meet the scalability and performance needs to serve the Package Management user-case. 🔁
+- Meet the scalability and performance needs to serve the Package Management user-case. 🔁❌
 
 We will be booting the Package Managers Working Group in early 2019, meanwhile, check out [NPM on IPFS](https://github.com/ipfs-shipyard/npm-on-ipfs) & [GX](https://github.com/whyrusleeping/gx) to get a feel for what IPFS can contribute to Package Management.
 
