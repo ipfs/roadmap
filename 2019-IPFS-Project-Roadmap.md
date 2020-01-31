@@ -74,10 +74,10 @@ We've distilled the key themes from the Working Group Roadmaps into a list of **
 ### 1. The reference implementations of the IPFS Protocol (Go & JS) becomes Production Ready
 
 We've been working hard on improving and iterating on the IPFS Protocol to make sure it serves its users needs and achieves the goal of giving the Web a new super power: Content Addressing. In 2019 we will solidify the core components and ensure IPFS is ready for production systems. Our goals include:
-- IPFS core solidified and APIs revamped/crystalized to be future-proof 🔁 / ❌
+- IPFS core solidified and APIs revamped/crystalized to be future-proof 🔁❌
 - Complete Specification of the Protocol ❌
 - Security Audits and Security Program 🔁
-- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default and in a reproducible way 🔁 / ✅
+- Go and JS IPFS enable modern IPFS data formats ([UnixFSv2](https://github.com/ipfs/unixfs-v2), [CIDv1](https://github.com/ipld/cid), raw blocks) by default and in a reproducible way 🔁✅
 - The migration to Base32 CIDs is completed across all projects and IPFS Gateway. ~✅
 
 You can contribute to these Epic by testing, debugging, documenting or coding on either Go or JS IPFS. Both teams have a chat every week that you can join. [Go](https://github.com/ipfs/team-mgmt/blob/master/MGMT_GOLANG_CORE_DEV.md) & [JS](https://github.com/ipfs/team-mgmt/blob/master/MGMT_JS_CORE_DEV.md#weekly-core-dev-team-calls).
@@ -94,7 +94,7 @@ We will be booting the Package Managers Working Group in early 2019, meanwhile, 
 ### 3. Scale the IPFS Network
 
 To support the continued growth of the IPFS Network, we will be testing and benchmarking the protocol at scale.
-- Deploy a P2P testbed for Distributed Protocols that enables us to spin up hundreds of thousands of nodes on demand and run tests on them. 🔁
+- Deploy a P2P testbed for Distributed Protocols that enables us to spin up hundreds of thousands of nodes on demand and run tests on them. 🔁✅
 - IPFS has an opt-in Telemetry system so that tests can collect key data to understand the experiments. ❌
 
 Our friends from libp2p will be playing the larger role in achieving this goal. If you are a Networks specialist and/or if you like scaling systems to serve hundreds of millions, join the conversation in the [Bi-Weekly Libp2p Call](https://github.com/libp2p/team-mgmt#bi-weekly-call) and learn more.
@@ -109,19 +109,19 @@ More details will be public soon. Subscribe for updates [here](https://github.co
 ### 5. IPFS testing, benchmarks, and performance optimizations
 
 In order to prepare ourselves for production readiness and ensure IPFS is optimized for a variety of real-world use cases, we'll double down on testing and benchmarking in 2019.
-- Testing harness and environments that simulate different topologies / network configurations. 🔁
+- Testing harness and environments that simulate different topologies / network configurations. ✅
 - Tests for Interoperability, Performance Benchmarks, Reliability, and Network churn. ~✅
-- Performance overhaul for resolving (IPNS), finding (Providers), transferring, and adding files. 🔁
+- Performance overhaul for resolving (IPNS), finding (Providers), transferring, and adding files. ✅ (to be launched)
 
 ### 6. Support the growing IPFS Community
 
 The IPFS Community is composed of many enthusiasts from the DWeb, P2P, Crypto, Privacy, builders, Web 3.0, Blockchain and many more. Today we have an impressive 3700+ contributors directly improving the IPFS, libp2p, IPLD and Multiformats repos, but there are tens of thousands more contributing to Apps, Libraries and Systems that build on top of IPFS everyday! In 2019, we want to provide a rich platform for all these contributors to share their ideas, get their questions heard, cross-pollinate and tackle new challenges!
-- The documentation on IPFS and its libraries gets revamped and becomes part of continuous delivery. 🔁
+- The documentation on IPFS and its libraries gets revamped and becomes part of continuous delivery. ✅
 - Increase awareness and adoption through Community outreach via presentations, guides / how-tos, meetups, and quarterly IPFS Project updates. ✅
 - Support contributor productivity and impact through Quarterly User Reports, fast code reviews, and DevOps automation. ❌
-- Create IPFS Dev Grant and Research Grant programs to encourage global engagement with the cutting-edge work in the IPFS ecosystem. 🔁
+- Create IPFS Dev Grant and Research Grant programs to encourage global engagement with the cutting-edge work in the IPFS ecosystem. ✅
 - Launch [ProtoSchool](https://proto.school/), an interactive way to learn how to build on the P2P Web. ✅
-- IPFS Community Meetups receive an upgrade with education materials (guides, tutorials, workshops, talks) to boost the leveling up DWeb communities. 🔁
+- IPFS Community Meetups receive an upgrade with education materials (guides, tutorials, workshops, talks) to boost the leveling up DWeb communities. ✅
 
 ## 2019 Goal (expanded)
 
