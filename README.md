@@ -28,7 +28,7 @@
 
 ## IPFS Mission Statement
 
-#### The mission of IPFS is to create a resilient, upgradable, open network to preserve and grow humanity’s knowledge.
+**The mission of IPFS is to create a resilient, upgradable, open network to preserve and grow humanity’s knowledge.**
 
 _This looks different! Want to participate in helping define our "Mission Statement 2.0"? Add your thoughts [here](https://github.com/ipfs/roadmap/issues/52)!_
 
@@ -48,7 +48,7 @@ Before selecting a 2020 H1 priority, we did an open call for [Theme Proposals](h
 ### 📞 Content Routing
 Given the selection criteria, our main priority for the first half of 2020 - the next 6 months - is **improving the performance and reliability of *content routing* in the IPFS network**. 'Content routing' is the process of finding a node hosting the content you're looking for, such that you can fetch the desired data and quickly load your website/dapp/video/etc. As the IPFS network scaled this past year (over 30x!), it ran into new problems in our distributed routing algorithms - struggling to find content spread across many unreliable nodes. This was especially painful for [IPNS](https://docs.ipfs.io/guides/concepts/ipns/), which relied on _multiple_ of these slow/unreliable queries to find the latest version of a file. These performance gaps caused IPFS to lag and stall while searching for the needed content, hurting the end user experience and making IPFS feel broken. Searching the network to find desired content (aka, using IPFS as a decentralized CDN) is one of the most common actions for new IPFS users and is required by most ipfs-powered dapp use cases - therefore, it's the **number 1 pain point** we need to mitigate in order to unlock increased adoption and scalability of the network!
 
-We considered a number of other potential goals - especially all the great [2020 Theme Proposals](https://github.com/ipfs/roadmap/issues/) - before selecting this priority. However, we decided it was more important to focus core working group dev time on the main blockers and pain points to enable the entire ecosystem to grow and succeed. Many of the [2020 Theme Proposals](https://github.com/ipfs/roadmap/issues/) are actually very well suited for community ownership via [DevGrants](https://github.com/ipfs/devgrants) and collaborations - and some of them, like ["IPFS in Rust"](https://github.com/ipfs/roadmap/issues/54) and ["Examples and Tutorials"](https://github.com/ipfs/roadmap/issues/50), already have grants or bounties associated with them!
+We considered a number of other potential goals - especially all the great [2020 Theme Proposals](https://github.com/ipfs/roadmap/issues/) - before selecting this priority. However, we decided it was more important to focus core working group dev time on the main blockers and pain points to enable the entire ecosystem to grow and succeed. Many of these proposals are actually very well suited for community ownership via [DevGrants](https://github.com/ipfs/devgrants) and collaborations - and some of them, like ["IPFS in Rust"](https://github.com/ipfs/roadmap/issues/54) and ["Examples and Tutorials"](https://github.com/ipfs/roadmap/issues/50), already have grants or bounties associated with them!
 
 ## 2020 Working Groups 
 
