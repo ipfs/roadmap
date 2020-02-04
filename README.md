@@ -64,6 +64,8 @@ Each WG’s top-line focus:
   - Dev Ex: Support the IPFS technical community through documentation, contributor experience, API ergonomics and tooling
 - **Project:** Support team functioning, prioritization, and day-to-day operations
 
+Looking for more specifics? Check out the [docs on our team roles and structure](https://github.com/ipfs/team-mgmt/blob/master/TEAMS_ROLES_STRUCTURES.md#working-groups)!
+
 
 ## 2020 Epics
 
