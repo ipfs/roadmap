@@ -35,15 +35,15 @@ _This looks different! Want to participate in helping define our "Mission Statem
 ## 2020 Priority
 
 ### Scoping in to 2020 H1
-Instead of a 2020 plan, we decided to focus on a **2020 H1 plan (covering Q1 & Q2)** so as to: 
+Instead of a 2020 year-long plan, we decided to focus on a **2020 H1 plan (covering Q1 & Q2)** so as to: 
 - Enable our team to truly focus on one thing, complete it, and then move on to other challenges instead of doing many things at once
 - Better understand the components of each goal and plan our time accordingly to hit them by not trying to nail down plans too far into the future
-- Reduce the chance of surprises, re-prioritizations, or market shifts that require us to refocus energy or change our plan
+- Be adaptable and prepared for surprises, re-prioritizations, or market shifts that require us to refocus energy or change our plan in the course of the year
 
 ### 2020 H1 Priority Selection Criteria
 Before selecting a 2020 H1 priority, we did an open call for [Theme Proposals](https://github.com/ipfs/roadmap/blob/master/2020-IPFS-Project-Planning.md) to surface areas the community felt were of high importance and urgency. We combined these great proposals with an analysis of the project, team, and ecosystem state - and the biggest risks to IPFS Project success. Out of that analysis, we identified there were two main aspects our 2020 H1 plan **MUST** address:
 1. Mitigate current IPFS pain points around network performance and end user experience that are hindering wider adoption and scale
-1. Increase velocity, alignment, and capacity for IPFS devs and contributors to ensure our time and efforts are highly leveraged
+1. Increase velocity, alignment, and capacity for IPFS devs and contributors to ensure our time and efforts are highly leveraged _(because if we can make fast, sustained, high-quality progress by leveling-up our focus and healthy habits, we can achieve our goals faster and ensure contributing to IPFS is fun and productive!)_
 
 ### 📞 Content Routing
 Given the selection criteria, our main priority for the first half of 2020 - the next 6 months - is **improving the performance and reliability of *content routing* in the IPFS network**. 'Content routing' is the process of finding a node hosting the content you're looking for, such that you can fetch the desired data and quickly load your website/dapp/video/etc. As the IPFS network scaled this past year (over 30x!), it ran into new problems in our distributed routing algorithms - struggling to find content spread across many unreliable nodes. This was especially painful for [IPNS](https://docs.ipfs.io/guides/concepts/ipns/), which relied on _multiple_ of these slow/unreliable queries to find the latest version of a file. These performance gaps caused IPFS to lag and stall while searching for the needed content, hurting the end user experience and making IPFS feel broken. Searching the network to find desired content (aka, using IPFS as a decentralized CDN) is one of the most common actions for new IPFS users and is required by most ipfs-powered dapp use cases - therefore, it's the **number 1 pain point** we need to mitigate in order to unlock increased adoption and scalability of the network!
@@ -76,7 +76,7 @@ In order to achieve our content routing goal for 2020 H1, we need to level up ou
 - Empower new contributors in the IPFS ecosystem through [DevGrants](https://github.com/ipfs/devgrants) and collaborations to upgrade and extend IPFS to solve new problems
 - Invest in developer tooling, automation, and fast feedback loops to accelerate experimentation and iteration
 - Upgrade project planning and management within and between working groups to ensure we define, estimate, track and unblock our work efficiently
-- Focus our attention on fewer things to improve completion rate and reduce churn, saying "no" to more _nice-to-have_ projects in order to allocate energy and attention to the most important work
+- Focus our attention on fewer things to improve completion rate and reduce churn, saying "not now" or finding other champions for _nice-to-have_ projects in order to allocate energy and attention to the most important work
 
 You can get involved with [ResNetLab RFPs](https://github.com/protocol/research-RFPs/blob/master/RFPs/rfp-7-MLDHT.md) or by proposing/funding projects in the [DevGrants](https://github.com/ipfs/devgrants) repo!
 
@@ -94,7 +94,7 @@ Supporting community health and growth continues to be a core focus for IPFS as 
 - Scale the number of users and applications supported by IPFS through talks, guides, and how-tos 
 - Refine our APIs to simplify end-user adoption and maximize ease of use
 - Bring IPFS to browsers to maximize default availability and connectivity on the web
-- Continue impoving our new IPFS Docs Site, to ensure community & user questions are clearly answered and actionable
+- Continue impoving our new IPFS Docs Site, to ensure developer & user questions are clearly answered and actionable
 - Invest in explicit community stewardship responsibilities to ensure there are answers, tools, and fast feedback loops to support new IPFS users and contributors
 
 Great ways to start helping enable the IPFS community include: suggesting or building new tools to support IPFS users, reviewing open PRs, answering questions on http://discuss.ipfs.io and on our IRC channels on freenode/matrix, or writing your own how-tos and guides to use IPFS for your use case!
