@@ -1,4 +1,4 @@
-# IPFS Project Roadmap v0.5.1
+# IPFS Project Roadmap v0.6.0
 
 ## Table of Contents
 
