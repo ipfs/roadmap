@@ -5,7 +5,7 @@ title: "[2021 Theme Proposal] Theme Title"
 labels: 2021 Theme Proposal
 assignees: atopal, dchoi27
 ---
-_Note, this is part of the [2021 IPFS project planning process ](https://github.com/ipfs/roadmap/blob/master/2021-IPFS-Project-Planning.md) - feel free to add other potential 2021 themes for the IPFS project by opening a [new issue]() or discuss this proposed theme in the comments, especially other example workstreams that could fit under this theme for 2021. Please also review others’ proposed themes and leave feedback [here]()!_
+_Note, this is part of the [2021 IPFS project planning process ](https://github.com/ipfs/roadmap/blob/master/2021-IPFS-Project-Planning.md) - feel free to add other potential 2021 themes for the IPFS project by opening a [new issue](https://github.com/ipfs/roadmap/issues/new/choose) or discuss this proposed theme in the comments, especially other example workstreams that could fit under this theme for 2021. Please also review others’ proposed themes and leave feedback [here](https://github.com/ipfs/roadmap/labels/2021%20Theme%20Proposal)!_
 ## Theme description
 _Please describe the objective of your proposed theme, what problem it solves, and what executing on it would mean for the IPFS Project._
 
