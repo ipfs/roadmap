@@ -7,7 +7,7 @@ The IPFS team has started evaluating potential themes to guide the project in 20
 ## Proposal Process
 We want to hear from you in the form of public Github issues. Issues should contain a potential theme that you think IPFS should tackle in 2021 - and why. Your theme proposals can be at any level of granularity — from general direction for the project, to specific features or tooling improvements, to ecosystem needs — everything is in scope. We want to hear what’s on your mind, what direction you want to take IPFS, and what your pain points are. 
 
-Aside from new theme proposals, we’d also very much appreciate comments on theme proposals, especially if there are additional important workstreams you’d like to see as part of that theme. Existing proposals for themes can be found here.
+Aside from new theme proposals, we’d also very much appreciate comments on theme proposals, especially if there are additional important workstreams you’d like to see as part of that theme. Existing proposals for themes can be found [here](https://github.com/ipfs/roadmap/issues?q=is%3Aissue+is%3Aopen+label%3A%222021+Theme+Proposal%22).
 
 To suggest a theme proposal, please create a [new 2021 Proposal issue](https://github.com/ipfs/roadmap/issues/new/choose) in this repo. The hope with using github issues is to allow for clarifying conversation in comments, help others build on your great ideas, and also be inspired to propose their own thoughts. You are welcome to submit more than one proposal! 
 
