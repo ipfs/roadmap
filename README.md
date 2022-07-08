@@ -31,8 +31,8 @@
 
 ## 2021 & 2022 Priorities
 For 2021 and 2022, core IPFS implementation planning & progress tracking has moved to GitHub projects for more iterative sprint planning. You can track past and upcoming releases - and the improvements they contain - here:
-- [go-ipfs](https://github.com/ipfs/go-ipfs)
-  -  Past releases: https://github.com/ipfs/go-ipfs/releases
+- [kubo](https://github.com/ipfs/kubo)
+  -  Past releases: https://github.com/ipfs/kubo/releases
   -  Upcoming priorities: https://github.com/orgs/ipfs/projects/16/views/3
 - [js-ipfs](https://github.com/ipfs/js-ipfs/)
   - Past releases: https://github.com/ipfs/js-ipfs/releases
