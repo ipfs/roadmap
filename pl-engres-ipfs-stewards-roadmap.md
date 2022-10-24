@@ -1,52 +1,58 @@
 # PL EngRes IPFS Stewards Roadmap (DRAFT)
 
+## What is this document?
+This is PL EngRes IPFS Stewards' stakeholder roadmap.  (You can learn more about the team [here](https://pl-strflt.notion.site/Kubo-go-ipfs-4a484aeeaa974dcf918027c300426c05).)  This document doesn't live in the [ipfs/kubo](https://github.com/ipfs/kubo) repo because per the team description above the team's area of ownership is larger than Kubo.  The team is often involved in discussions, decisions, and efforts that affect the wider IPFS ecosystem, and Kubo is used to give traction to and validate ideas.  We want to ensure the wider IPFS community knows the team's plans.
+This document is not:
+1. A roadmap for the IPFS project as a whole.
+2. A detailed engineering plan for all of our ongoing initiatives.  The day-to-day shows up in the [Kubo GitHub Project Board](https://www.notion.so/pl-strflt/Kubo-GitHub-Project-Board-c68f9192e48e4e9eba185fa697bf0570).
+
 ## Themes
 
 We’re defining a set of themes which help us think about how we are investing our engineering resources towards a few key strategies. In any given window of time, strategic priorities will dictate the relative amount of investment we make towards each theme. As time goes on, the themes will shift; some themes may get de-prioritized or dropped entirely as new ones come in. Some themes, however, may always be relevant. We try to keep between 3 to 5 themes total. 
 
 ### Theme 1: Ubiquitous Clients/Implementations
     
-    To increase usage of the IPFS protocol across the board, we need there to be a rich array of clients supporting many possible use-cases on many possible platforms. We do this by:
+To increase usage of the IPFS protocol across the board, we need there to be a rich array of clients supporting many possible use-cases on many possible platforms. We do this by:
 
-    - Being the primary contributors/maintainers of one or more high-quality, off-the-shelf reference IPFS host implementation(s)
-    - Finding opportunities to unblock/accelerate new implementations being developed by other projects/organizations
-    - Helping guide the extensions to core protocols necessary to support new client design patterns (e.g., Thin Clients)
-    
+- Being the primary contributors/maintainers of one or more high-quality, off-the-shelf reference IPFS host implementation(s)
+- Finding opportunities to unblock/accelerate new implementations being developed by other projects/organizations
+- Helping guide the extensions to core protocols necessary to support new client design patterns (e.g., Thin Clients)
+
 ### Theme 2: Content Routing Innovation
-    
-    Content routing will continue to be amongst the most critical areas for innovation to extend the reach of IPFS to all the data on the planet and to support low latency application scenarios. We will advance the state of IPFS Content Routing by:
-    
-    - Ensuring the protocols and implementations support the flexibility for teams and organizations across the ecosystem to experiment with and commit to diverse content routing approaches
-    - Directly driving innovation in content routing technology into the core reference implementations of IPFS
-    
+
+Content routing will continue to be amongst the most critical areas for innovation to extend the reach of IPFS to all the data on the planet and to support low latency application scenarios. We will advance the state of IPFS Content Routing by:
+
+- Ensuring the protocols and implementations support the flexibility for teams and organizations across the ecosystem to experiment with and commit to diverse content routing approaches
+- Directly driving innovation in content routing technology into the core reference implementations of IPFS
+
 ### Theme 3: Privacy
-    
-    Privacy is at the heart of Web3, and IPFS must hold an incredibly high privacy bar. We will continue to invest in protocols and implementations to ensure user privacy is always honored.
-    
+
+Privacy is at the heart of Web3, and IPFS must hold an incredibly high privacy bar. We will continue to invest in protocols and implementations to ensure user privacy is always honored.
+
 ### Theme 4: Engineering Excellence
-    
-    As an engineering team supporting a large amount of code in open source projects which now has some years behind it, there is always going to be engineering debt. But beyond debt, we want to continue to invest thoughtfully in ways that can increase the efficiency and effectiveness of our engineers.
-    
+
+As an engineering team supporting a large amount of code in open source projects which now has some years behind it, there is always going to be engineering debt. But beyond debt, we want to continue to invest thoughtfully in ways that can increase the efficiency and effectiveness of our engineers.
+
 ### Theme 5: Rich Application Support
-    
-    Future investment focus area we will flesh out more. Should include:
-    
-    - Enhancing support for data mutability and addressing issues in current implementations/protocols
-    - Being able to make data available through IPFS without re-encoding/re-writing
+
+Future investment focus area we will flesh out more. Should include:
+
+- Enhancing support for data mutability and addressing issues in current implementations/protocols
+- Being able to make data available through IPFS without re-encoding/re-writing
 	
 ## Legend
 
 - Legend
-    
-    ⚫ Not Started
-    
-    🟢 In progress - on track
-    
-    🟡 At risk
-    
-    🔴 Blocked
-    
-    🔵 Doneq
+
+⚫ Not Started
+
+🟢 In progress - on track
+
+🟡 At risk
+
+🔴 Blocked
+
+🔵 Done
 	
 ## Roadmap
 ### 2022-10
