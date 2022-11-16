@@ -37,8 +37,8 @@ For 2021 and 2022, core IPFS implementation planning & progress tracking has mov
 - [js-ipfs](https://github.com/ipfs/js-ipfs/)
   - Past releases: https://github.com/ipfs/js-ipfs/releases
   - Upcoming priorities: https://github.com/orgs/ipfs/projects/13
-- [rust-ipfs](https://github.com/rs-ipfs/rust-ipfs)
-  - Progress: https://areweipfsyet.rs/
+- [Iroh](https://github.com/n0-computer/iroh)
+  - Progress: https://github.com/orgs/n0-computer/projects/1
 - [IPFS GUIs](https://github.com/ipfs/ipfs-webui)
   - Past releases: https://github.com/ipfs/ipfs-webui/releases, https://github.com/ipfs/ipfs-desktop/releases
   - Upcoming priorities: https://github.com/orgs/ipfs/projects/17
